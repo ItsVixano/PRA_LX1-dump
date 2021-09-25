@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--TWMobile_TW-->
+    <carrier_config>
+        <!--UT NO TA -->
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA -->
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <!-- VoWifi  -->
+        <string name="carrier_vowifi_title">VoWiFi</string>
+        <!--use custom User-Agent in Google Message-->
+        <boolean name="useCustomUserAgent" value="true" />
+    </carrier_config>
+</carrier_config_list>

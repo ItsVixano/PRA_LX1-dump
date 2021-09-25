@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Telstra AU-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="80"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">1:1,8:1</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--Vowifi NO TA-->
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifi_mmsut_pdn_type" value="1"/>
+        <string name="vowifiHplmnListItem">50501, epdg.epc.mnc001.mcc505.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048, RCT_ALG_MODP3072, RCT_ALG_MODP4096, RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC, RCT_ALG_AES192_CBC, RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2DpdInterval" value="60"/>
+        <int name="Ikev2NatKeepAliveTime" value="20"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

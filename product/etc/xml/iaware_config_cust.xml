@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- !!!!!!!!!!!!warnning!!!!!!!!!!!!  -->
+<!-- this config is used to config big memory -->
+<!-- upon the item iaware, no allowed add any item -->
+<!-- if you want to accelerate camera launch-->
+<!-- please copy the following xml to your own product folder-->
+<iaware iawareversion="1.0">
+    <feature name="Memory">
+        <!--<config name="BigMemApp">
+            <item appname="com.huawei.camera">
+                <launch>900</launch>
+            </item>
+        </config>-->
+    </feature>
+    <feature name="CPU">
+        <config name="sub_switch">
+            <item type="switch">
+                <log bit="0">0</log>
+                <freq_interactive bit="1">0</freq_interactive>
+                <scroller_boost bit="3">1</scroller_boost>
+                <key_thread_boost bit="4">1</key_thread_boost>
+                <ta_app_start_boost bit="5">0</ta_app_start_boost>
+                <eapa bit="7">0</eapa>
+                <vr bit="8">0</vr>
+                <cpuctl_fg bit="10">1</cpuctl_fg>
+                <vip_thread bit="11">1</vip_thread>
+                <eas bit="13">1</eas>
+                <game_scene bit="14">0</game_scene>
+            </item>
+        </config>
+        <config name="enable_pg_freq">
+            <item>
+                <enable>false</enable>
+            </item>
+        </config>
+        <config name="cpuset_screen_on">
+            <item type="cpuset">
+                <fg>0-7</fg>
+                <bg>2-3</bg>
+                <key_bg>2-3,7</key_bg>
+                <sys_bg>0-3</sys_bg>
+                <top_app>0-7</top_app>
+                <ta_boost>4-7</ta_boost>
+                <boost>4-7</boost>
+            </item>
+        </config>
+        <config name="cpuset_VR">
+            <item type="cpuset">
+                <fg>0-2,4-7</fg>
+                <bg>0-2</bg>
+                <key_bg>0-2</key_bg>
+                <sys_bg>0-2</sys_bg>
+                <top_app>0-7</top_app>
+                <boost>4-7</boost>
+            </item>
+        </config>
+        <config name="cpuset_screen_off">
+            <item type="cpuset">
+                <fg>0-7</fg>
+                <bg>0-3</bg>
+                <key_bg>0-3</key_bg>
+                <sys_bg>0-3</sys_bg>
+                <top_app>0-7</top_app>
+                <boost>0-7</boost>
+            </item>
+        </config>
+        <config name="scroller_boost">
+            <item>
+                <boost_duration>1000</boost_duration>
+                <enable_skipped_frame>2</enable_skipped_frame>
+                <boost_by_each_fling>false</boost_by_each_fling>
+            </item>
+        </config>
+        <!-- enable by key_thread_boost sub_switch -->
+        <config name="boost_key_thread_list">
+            <item process_name="system_server">
+                <thread_name>ActivityManag</thread_name>
+                <thread_name>sManagerService</thread_name>
+                <thread_name>Binder:</thread_name>
+            </item>
+            <item process_name="com.android.incallui">
+                <thread_name>ndroid.incallui</thread_name>
+            </item>
+        </config>
+        <config name="eapa_constant">
+            <item type="global">
+                <lowest_skipframe>4</lowest_skipframe>
+                <period_num>10</period_num>
+                <sample_interval>200</sample_interval>
+                <sample_num>5</sample_num>
+                <thresholds>47</thresholds>
+            </item>
+            <item type="b_cluster">
+                <lowfreq>2112</lowfreq>
+                <freq>1402;1805;2016;2112;</freq>
+            </item>
+        </config>
+        <config name="cpuctl_limit">
+             <item>
+                 <cpu_ta_load_threshold>90</cpu_ta_load_threshold>
+                 <cpu_fg_load_threshold>80</cpu_fg_load_threshold>
+                 <cpu_fg_load_limit>60</cpu_fg_load_limit>
+                 <cpu_load_low_threshold>60</cpu_load_low_threshold>
+                 <cpu_highload_polling_interval>1000</cpu_highload_polling_interval>
+             </item>
+        </config>
+        <config name="vip_thread_param">
+            <item>
+                <vip_min_sched_delay_granularity>0</vip_min_sched_delay_granularity>
+                <vip_max_dynamic_granularity>32</vip_max_dynamic_granularity>
+                <vip_min_migration_delay>10</vip_min_migration_delay>
+            </item>
+        </config>
+        <config name="vip_white_list">
+            <item>
+                <!-- <procname>m.huawei.camera</procname> -->
+            </item>
+        </config>
+    </feature>
+    <!-- switch 0:contain no game; 1:use WhiteList; 2:for all games -->
+    <feature name="GameOpt">
+        <config name="subSwitch">
+            <item feature="bigCore">
+                <switch>1</switch>
+                <whiteList>com.andromeda.androbench2</whiteList>
+            </item>
+            <item feature="feedback">
+                <switch>2</switch>
+                <whiteList>com.tencent.tmgp.sgame</whiteList>
+            </item>
+        </config>
+        <config name="threshold">
+            <item feature="bigCore">
+                <dropThreshold>1,255,325,655,865</dropThreshold>
+                <riseThreshold>3,270,340,670,880</riseThreshold>
+            </item>
+            <item feature="feedback">
+                <!-- kpiValid,kpiDoor -->
+                <kpi>8.0,2.0</kpi>
+                <!-- cpuHigh,cpuLow,gpuHigh,gpuLow -->
+                <usage>70,30,70,30</usage>
+                <!-- sensorType,temp_ratio -->
+                <ratio>9,0.9:0,0.9</ratio>
+                <!-- temp_level_0~temp_level_3,min fps-->
+                <mode30>0,1,3,5,25</mode30>
+                <mode60>0,3,6,10,45</mode60>
+            </item>
+        </config>
+    </feature>
+    <!-- switch 0:feature diable; 1:enable; -->
+    <feature name="appmng_feature">
+        <config name="installer_mgr">
+            <item type="WhiteList">
+                <pkg>com.android.packageinstaller</pkg>
+                <pkg>com.huawei.appmarket</pkg>
+            </item>
+        </config>
+        <config name="installer_duration">
+            <item>
+                <short_frz_dur>3000</short_frz_dur>
+                <slide_frz_dur>6000</slide_frz_dur>
+                <unfrz_dur>1000</unfrz_dur>
+            </item>
+        </config>
+    </feature>
+    <feature name="DevSchedFeature">
+        <config name="sub_switch">
+            <item type="switch">
+                <spk bit="2">1</spk>
+            </item>
+        </config>
+        <config name="speaker">
+            <item>
+                <music>100</music>
+                <video>100</video>
+                <game>100</game>
+                <default>100</default>
+                <debug>0</debug>
+                <smartpa>0</smartpa>
+            </item>
+        </config>
+    </feature>
+</iaware>

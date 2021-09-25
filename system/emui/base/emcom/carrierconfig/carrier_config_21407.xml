@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!--Google Message config end -->
+
+        <!--VOWIFI NO TA-->
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifiHplmnListItem">21407, epdg.epc.mnc007.mcc214.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2SaLifeTime" value="43200"/>
+        <int name="IPsecSaLifeTime" value="43200"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="43200"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="43200"/>
+</carrier_config>
+</carrier_config_list>

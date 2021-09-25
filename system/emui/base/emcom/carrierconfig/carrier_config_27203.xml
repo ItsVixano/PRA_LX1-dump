@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--METEOR_IE-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc003.mcc272.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">27203, labepdg.epc.mnc003.mcc272.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="43200"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="43200"/>
+        <int name="Ikev2SaLifeTime" value="43200"/>
+        <int name="IPsecSaLifeTime" value="43200"/>
+        <int name="Ikev2DpdInterval" value="720"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">eir</string>
+        <string name="wfc_format_wifi_string">%1$s WiFi Call</string>
+    </carrier_config>
+</carrier_config_list>

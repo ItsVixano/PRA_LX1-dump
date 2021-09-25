@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+    <!-- SIERRATEL SL -->
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="30"/>
+        <int name="callWaitingMode" value="11"/>
+    </carrier_config>
+</carrier_config_list>

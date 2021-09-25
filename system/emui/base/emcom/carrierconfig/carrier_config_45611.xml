@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SEATEL KH -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE TA-->
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+    </carrier_config>
+</carrier_config_list>

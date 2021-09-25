@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CLARO AR-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utNafPort" value="80"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc310.mcc722.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <int name="callWaitingMode" value="11" />
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="vowifiHplmnListItem">722310, epdg.epc.mnc310.mcc722.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="wfc_spn_string">Claro AR</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <int name="Ikev2SaLifeTime" value="87000"/>
+        <int name="IPsecSaLifeTime" value="87000"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="86400"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <int name="Ikev2DpdInterval" value="10"/>
+        <int name="Ikev2NatKeepAliveTime" value="180"/>
+        <string name="vowifi_UT_APN">igprs.claro.com.ar</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="hide_wfc_dialog_cancel_btn" value="true"/>
+    </carrier_config>
+</carrier_config_list>

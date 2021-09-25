@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- DIGI HU-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc003.mcc216.pub.3gppnetwork.org</string>
+        <int name="utNafPort" value="8090"/>
+        <string name="utParamsCfg">0:1</string>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifi_UT_APN">Hos</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">21603, epdg.epc.mnc003.mcc216.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <int name="Ikev2DpdInterval" value="60"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+    </carrier_config>
+</carrier_config_list>

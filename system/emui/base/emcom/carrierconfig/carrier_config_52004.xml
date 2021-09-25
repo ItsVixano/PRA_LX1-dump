@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TRUE TH -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">52004, epdg.epc.mnc004.mcc520.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2CertReqEnable" value="0"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <string name="vowifiRssiThreshold">-65,-75,-5,-5</string>
+        <string name="vowifiWifiChip24GConf">-75,-70,3,1</string>
+        <string name="vowifiWifiChip5GConf">-75,-70,3,1</string>
+        <int name="Ikev2PcscfIpv4Address" value="16389"/>
+        <int name="Ikev2PcscfIpv6Address" value="16390"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifi_mmsut_roaming_switch" value="true"/>
+    </carrier_config>
+</carrier_config_list>

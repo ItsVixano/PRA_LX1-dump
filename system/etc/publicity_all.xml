@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="华为终端有限公司" feature="提供系统升级服务。" package="com.huawei.android.hwouc" label="com.huawei.android.hwouc">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="亮点智能推介，向用户推荐和说明EMUI的特性，提升用户的使用体验。" package="com.huawei.tips" label="com.huawei.tips">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="您可以通过备份应用备份设备上的个人数据 (如联系人、信息、通话记录)、应用数据或多媒体数据，避免系统升级、刷机后数据丢失。" package="com.huawei.KoBackup" label="com.huawei.KoBackup">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="玩机技巧为您提供手机亮点功能介绍以及用户手册，让您快速了解手机精彩功能，并获取操作技巧和使用指导。" package="com.huawei.android.tips" label="com.huawei.android.tips">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="一键将旧手机中的联系人、照片、视频、应用等数据迁移至华为新手机，轻松换机。" package="com.hicloud.android.clone" label="com.hicloud.android.clone">
+	</packageInfo>
+	<packageInfo use-permission="华为原生相机，包含专业相机（依赖硬件）、滤镜模式、笑脸抓拍等功能。" author="华为终端有限公司" feature="华为原生相机，包含专业相机、滤镜模式、笑脸抓拍等功能。" package="com.huawei.camera" label="com.huawei.camera">
+	</packageInfo>
+	<packageInfo author="华为软件技术有限公司" feature="华为音乐是提供音乐播放的应用，提供音乐播放功能，可浏览、播放音乐内容，并支持低功耗播放、自定义歌单、全局搜索、水母动效。" package="com.android.mediacenter" label="com.android.mediacenter">
+	</packageInfo>
+</packageList>

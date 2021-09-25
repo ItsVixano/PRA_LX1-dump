@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- DNA FI -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1</string>
+        <int name="utBearType" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
+        <string name="vowifiHplmnListItem">24412, epdg.epc.mnc012.mcc244.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="28800"/>
+        <int name="Ikev2SaLifeTime" value="28800"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

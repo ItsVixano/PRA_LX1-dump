@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <!--DTS2015122110720 z00350858 20151221 begin-->
+    <string reg_plmn_custom="46000,46002,46007,46008;24001,24007,24005;24405,24421;24002,24008,24004;46060,46008;23430,23433;21407,21404;24421,24405;23212,23205;23207,23203;23211,23201;46001,46009"/>
+    <!--DTS2015122110720 z00350858 20151221 end-->
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <fraction settings.global.convert_brightnesss_factor="320%"/>
+    <integer settings.global.wifi_sleep_policy="1"/>
+    <integer settings.system.screen_brightness="128"/>
+    <integer eapsim_view_removed="1"/>
+    <integer vibrate_on_message="1"/>
+    <!--DTS2015103008662 m00290952 20151030 begin-->
+    <integer settings.global.transition_animation_scale="0.5"/>
+    <integer settings.global.window_animation_scale="0.5"/>
+    <integer settings.system.single_hand_screen_zoom="0"/>
+    <integer settings.system.sound_effects_enabled="0"/>
+    <!--DTS2015111309063 m00290952 20151120 end-->
+    <!--BEGIN PN: DTS2015112309411 Added by m00290952 2015/11/26-->
+    <integer settings.secure.fp_take_photo="0"/>
+    <!--END PN: DTS2015112309411 Added by m00290952 2015/11/26-->
+    <!-- BEGIN PN:AR000AC9O3 Added by dwx334042 2018/03/26 -->
+    <integer settings.secure.game_power_save_mode="1"/>
+    <integer settings.secure.game_dnd_mode="2"/>
+    <integer settings.secure.game_gesture_disabled_mode="2"/>
+    <!-- END PN:AR000AC9O3 Added by dwx334042 2018/03/26 -->
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+    <integer dts_mode="3"/>
+    <!-- DTS2016041309480 z00185971 20160414 begin -->
+    <integer sws_mode="3"/>
+    <!-- DTS2016041309480 z00185971 20160414 end -->
+    <!--BEGIN PN: DTS2016022501886 Added by zwx302780 2016/03/011-->
+    <integer fingersense_smartshot_enabled="0" />
+    <!--END PN: DTS2016022501886 Added by zwx302780 2016/03/011-->
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+    <!-- PN:DTS2015121004450 , Deleted by x00184306, 2015/12/10 -->
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+
+    <!--******************************** 8.CUSTOM TEAM END -->
+</resources>

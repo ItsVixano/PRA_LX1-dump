@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--H3G GB-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1,2:1,3:1,4:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE NO TA-->
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_disable_supplement_bool" value="true"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <string name="vowifiHplmnListItem">23594, epdg.epc.mnc094.mcc235.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="64"/>
+        <string name="vowifiRssiThreshold">-66,-85,-6,-14</string>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">3</string>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi Calling</string>
+    </carrier_config>
+</carrier_config_list>

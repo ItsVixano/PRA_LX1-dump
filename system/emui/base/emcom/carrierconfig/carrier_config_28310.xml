@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- UCOM RU -->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <!-- Volte NO TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

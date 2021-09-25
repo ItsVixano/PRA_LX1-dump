@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VIVACOM_BG-->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc003.mcc284.pub.3gppnetwork.org</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,9 @@
+ro.config.ringtone=Honor.ogg
+ro.config.ringtone2=Huawei_Tune_Living.ogg
+ro.config.hw_nlp=com.baidu.map.location
+ro.config.hw_vassistant_honor=true
+# DTS2017041803335 lifan 194150 20170417 begin
+ro.config.hw_globalEcc=false
+ro.config.hw_ecclist_nocard=+120,+122
+ro.config.hw_ecclist_withcard=+112
+# DTS2017041803335 lifan 194150 20170417 end

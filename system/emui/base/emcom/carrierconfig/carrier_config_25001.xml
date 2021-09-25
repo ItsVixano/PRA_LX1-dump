@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--MEGAFON_RU 25001-->
+    <carrier_config>
+        <!-- VoWiFi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOLTE TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true" />
+        <!--VOWiFi NO TA -->
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifiHplmnListItem">25001, epdg.epc.mnc001.mcc250.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3200"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16390"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+    </carrier_config>
+</carrier_config_list>

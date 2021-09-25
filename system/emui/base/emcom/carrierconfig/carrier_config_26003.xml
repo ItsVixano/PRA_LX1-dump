@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--FT PL-->
+    <carrier_config>
+        <!--UT TA-->
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10100010</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">26003, epdg.epc.mnc003.mcc260.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="64800"/>
+        <int name="IPsecSaLifeTime" value="64800"/>
+        <int name="Ikev2MaxRetryToSend" value="5"/>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="20"/>
+        <int name="netmgrSipOuterDSCP" value="48"/>
+        <int name="netmgrAudioOuterDSCP" value="48"/>
+        <int name="netmgrVideoOuterDSCP" value="48"/>
+        <string name="vowifiRssiThreshold">-75,-85,-6,-10</string>
+        <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">vowifiorange</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <string name="wfc_format_wifi_string">WiFi Calling | %1$s</string>
+        <boolean name="wfc_is_show_no_service" value="true"/>
+        <boolean name="wfc_is_show_emergency_only" value="true"/>
+        <boolean name="wfc_is_show_air_plane" value="true"/>
+    </carrier_config>
+</carrier_config_list>

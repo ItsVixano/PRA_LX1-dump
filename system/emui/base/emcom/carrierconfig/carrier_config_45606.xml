@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SMART KH -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="callWaitingMode" value="11"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <string name="utBsfSrvAddr">bsf.ims.mnc006.mcc456.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">45606, epdg01.epc.mnc006.mcc456.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="1800"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="1800"/>
+        <int name="Ikev2DpdMaxFails" value="3" />
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_mms_switch" value="true" />
+        <boolean name="vowifi_ut_switch" value="true" />
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifi_UT_APN">smart</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--H3G SE-->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="-1"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1,8:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">24002,epdg.epc.mnc002.mcc240.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">services</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+    </carrier_config>
+</carrier_config_list>

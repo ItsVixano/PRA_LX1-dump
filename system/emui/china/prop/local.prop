@@ -1,0 +1,24 @@
+
+gsm.fastdormancy.mode=3
+# DTS2017080107189 dangdengfeng/00367615 20170808 begin
+gsm.fastdormancy.screen=2
+gsm.fastdormancy.time_scroff=4000
+cdma.dormancy.mode=1
+cdma.dormancy.screen=3
+# DTS2017080107189 dangdengfeng/00367615 20170808 end
+ro.product.locale.language=zh
+ro.product.locale.region=CN
+ro.config.hw_optb=156
+ro.config.enable_rms=true
+ro.sys.ping_bf_dorecovery=true
+ro.config.hw_nlp=com.amap.android.ams
+ro.product.locale=zh-Hans-CN
+ro.config.hw_aqv_enabled=true
+ro.setupwizard.mode=DISABLED
+ro.config.hw_fake_ecc_list=110,120,122,999,119
+# DTS2017041803335 lifan 194150 20170417 begin
+ro.config.hw_globalEcc=false
+ro.config.hw_ecclist_nocard=+120,+122
+ro.config.hw_ecclist_withcard=+112
+# DTS2017041803335 lifan 194150 20170417 end
+ro.camera.sound.not_forced=true

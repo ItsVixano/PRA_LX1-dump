@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--ZAIN_BH-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <int name="utBearType" value="2"/>
+        <int name="callWaitingMode" value="7"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc002.mcc426.pub.3gppnetwork.org</string>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc002.mcc426.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="8091"/>
+        <string name="utParamsCfg">0:1,1:1,6:1,13:1</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">42602, epdg.epc.mnc002.mcc426.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_AES_CMAC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_AES_CMAC,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_256</string>
+        <boolean name="vowifi_ut_switch" value="true" />
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">Zain BH</string>
+        <string name="wfc_format_wifi_string">%1$s Wifi Calling</string>
+    </carrier_config>
+</carrier_config_list>

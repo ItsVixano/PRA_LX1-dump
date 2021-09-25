@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <!-- VVM -->
+        <int name="vvm_port_number_int" value="0"/>
+        <string name="vvm_destination_number_string">8082</string>
+        <string name="vvm_type_string">vvm_type_omtp</string>
+        <boolean name="vvm_cellular_data_required_bool" value="true"/>
+        <string-array name="vvm_disabled_capabilities_string_array" num="1">
+            <item value="STARTTLS"/>
+        </string-array>
+
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifiHplmnListItem">20610, epdg.epc.mnc010.mcc206.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1536,RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MOD2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2DpdInterval" value="120" />
+        <int name="Ikev2MaxRetryToSend" value="5"/>
+        <int name="Ikev2SaLifeTime" value="28800"/>
+        <int name="IPsecSaLifeTime" value="7200"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="28800"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="7200"/>
+        <string name="vowifiRssiThreshold">-75,-85,-6,-10</string>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,3 @@
+/vendor/lib/modules/plat.ko:
+/vendor/lib/modules/wifi.ko: /vendor/lib/modules/plat.ko
+/vendor/lib/modules/pn547.ko:

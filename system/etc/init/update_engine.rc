@@ -1,0 +1,11 @@
+service update_engine /system/bin/update_engine --logtostderr --foreground
+    user root
+    group root system wakelock inet cache
+    writepid /dev/cpuset/system-background/tasks /dev/stune/system-background/tasks /dev/blkio/system-background/tasks
+
+on property:hwouc.update_engine.up=true
+    start update_engine
+
+on property:hwouc.update_engine.up=false
+    stop update_engine
+

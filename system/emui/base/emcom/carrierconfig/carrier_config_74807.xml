@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+    <!-- MOVISTAR UY -->
+<carrier_config_list>
+    <carrier_config>
+        <int name="callWaitingMode" value="11"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">01100101</string>
+        <!-- VOLTE NO TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--IDEA_IN 405799-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="callWaitingMode" value="3"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utXcapRootUri">MyServices</string>
+        <boolean name="use_403_for_local_cw" value="true"/>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

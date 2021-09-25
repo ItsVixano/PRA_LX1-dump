@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CELLCOM MY -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

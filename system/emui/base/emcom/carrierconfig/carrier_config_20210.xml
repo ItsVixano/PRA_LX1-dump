@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- WIND_GR 20210-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="callWaitingMode" value="11"/>
+        <string name="utXcapRootUri">mtasxdms</string>
+        <string name="utBsfSrvAddr">bsf.ims.mnc010.mcc202.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <int name="utBearType" value="2"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CT TW-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="utUseApn" value="1"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc092.mcc466.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="8088"/>
+        <string name="utParamsCfg">0:1,1:1,6:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
+        <!-- VoWifi  -->
+        <string name="carrier_vowifi_title">VoWiFi</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="3" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
+        <boolean name="vowifi_ut_switch" value="true" />
+        <string name="vowifiHplmnListItem">46692,epdg.epc.mnc092.mcc466.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP8192,RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP2048,RCT_ALG_MODP1536,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SelfIdType" value="63" />
+        <int name="Ikev2PeerIdType" value="65" />
+        <int name="Ikev2IntervalToSend" value="5" />
+        <int name="Ikev2MaxRetryToSend" value="3" />
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200" />
+        <int name="Ikev2NatRtcTimerSec" value="30" />
+        <int name="Ikev2NatKeepAliveTime" value="30"/>
+        <int name="Ikev2DpdInterval" value="600" />
+        <int name="Ikev2SaLifeTime" value="3600" />
+        <int name="IPsecSaLifeTime" value="7200" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3600" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="7200" />
+        <int name="Ikev2PcscfIpv4Address" value="16384" />
+        <int name="Ikev2PcscfIpv6Address" value="16386" />
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifi_roaming_switch" value="true" />
+        <boolean name="vowifi_mmsut_roaming_switch" value="true" />
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <!--use custom User-Agent in Google Message-->
+        <boolean name="useCustomUserAgent" value="true" />
+    </carrier_config>
+</carrier_config_list>

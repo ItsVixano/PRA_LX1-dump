@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xengine version="001.001">
+    <region_config name="CN">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+        <product_config name="BKL">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <iaware>
+                    <wechat switch="1">
+                        <config version="800-1019">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>LuckyMoneyReceiveUI</animationRootView>
+                            <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+                        </config>
+                        <config version="1020-1199">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>En_fba4b94f</animationRootView>
+                            <boostRootView>En_fba4b94f</boostRootView>
+                        </config>
+                        <config version="1200-100000">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>LuckyMoneyReceiveUI</animationRootView>
+                            <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+                        </config>
+                    </wechat>
+                    <alipay switch="1">
+                        <config version="0-1000000">
+                            <boostRootView>SnsCouponDetailActivity</boostRootView>
+                        </config>
+                    </alipay>
+                </iaware>
+                <emcom_accelerate foreground="false">
+                    <!-- app标签为每个应用的配置节点，foreground为true时表示此应用是前台/定时加速应用，foreground为false时表示此应用是界面识别加速应用。grade为前台/定时加速应用时对应的加速等级-->
+                    <app name="com.tencent.mm" foreground="false" grade="1">
+                        <!-- autograb标签为手环抢红包的配置信息，仅支持微信支持手环抢红包，version为匹配的微信版本号 -->
+                        <autograb version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">
+                            LauncherUi:LauncherUI;ReceiveUi:LuckyMoneyReceiveUI;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type
+                        </autograb>
+                        <autograb version="6.(5.([5-9]|[1-9][0-9]+))">
+                            LauncherUi:LauncherUI;ReceiveUi:En_fba4b94f;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type
+                        </autograb>
+                        <!-- view标签为界面识别时识别的具体界面标签，其中version属性为匹配的微信版本号，此标签可以包含rootView，container，keyword，maxDepth，maxCount，grade子节点 -->
+                        <view version="6.(5.([5-9]|[1-9][0-9]+))">
+                            <!-- rootView 为识别的特殊界面名，配此子节点时，不需要配container，keyword，maxDepth，maxCount子节点 -->
+                            <rootView>En_fba4b94f</rootView>
+                            <!-- grade为加速等级，当前限定为2-3，必选 -->
+                            <grade>3</grade>
+                        </view>
+                        <view version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">
+                            <rootView>LuckyMoneyReceiveUI</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.eg.android.AlipayGphone" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <rootView>SnsCouponDetailActivity</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.tencent.mobileqq" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <!-- 当不配rootView子节点时，需要配container、keyword两个子节点，maxDepth和maxCount可选 -->
+                            <container>android.widget.RelativeLayout</container>
+                            <keyword>点击拆开</keyword>
+                            <maxDepth>3</maxDepth>
+                            <maxCount>12</maxCount>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.gtgj.view" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.Button</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.yipiao" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.tieyou.train.ark" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.taobao.taobao" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.achievo.vipshop" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jingdong.app.mall" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="cn.amazon.mShop.android" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.dangdang.buy2" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jm.android.jumei" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.mogujie" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.sankuai.meituan" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.thestore.main" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.tmall.wireless" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.vmall.client" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1"></app>
+                    <app name="com.Kingdee.Express" foreground="true" grade="1"></app>
+                    <app name="com.MobileTicket" foreground="true" grade="1"></app>
+                    <app name="com.cainiao.wireless" foreground="true" grade="1"></app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1">
+                        <hicomfeatures>
+                            <multipath>0</multipath>
+                            <wifimode>1</wifimode>
+                            <objectivedelay>80</objectivedelay>
+                            <maxGrade>5</maxGrade>
+                            <minGrade>1</minGrade>
+                        </hicomfeatures>
+                    </app>
+                    <game_space>
+                        <wifimode>0</wifimode>
+                        <multipath>0</multipath>
+                        <multipathType>0</multipathType>
+                        <objectivedelay>80</objectivedelay>
+                        <maxGrade>5</maxGrade>
+                        <minGrade>1</minGrade>
+                    </game_space>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+        <product_config name="default">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+            <xengine_features_config>                        <!--3级标签，产品配置-->
+                <iaware>
+                    <wechat switch="1">
+                        <config version="800-1019">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>LuckyMoneyReceiveUI</animationRootView>
+                            <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+                        </config>
+                        <config version="1020-1199">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>En_fba4b94f</animationRootView>
+                            <boostRootView>En_fba4b94f</boostRootView>
+                        </config>
+                        <config version="1200-100000">
+                            <messageTag>\u005b\u0043\u0044\u0041\u0054\u0041\u005b\u5fae\u4fe1\u7ea2\u5305\u005d\u005d</messageTag>
+                            <animationRootView>LuckyMoneyReceiveUI</animationRootView>
+                            <boostRootView>LuckyMoneyReceiveUI</boostRootView>
+                        </config>
+                    </wechat>
+                    <alipay switch="1">
+                        <config version="0-1000000">
+                            <boostRootView>SnsCouponDetailActivity</boostRootView>
+                        </config>
+                    </alipay>
+                </iaware>
+                <emcom_accelerate foreground="false">
+                    <!-- app标签为每个应用的配置节点，foreground为true时表示此应用是前台/定时加速应用，foreground为false时表示此应用是界面识别加速应用。grade为前台/定时加速应用时对应的加速等级-->
+                    <app name="com.tencent.mm" foreground="false" grade="1">
+                        <!-- autograb标签为手环抢红包的配置信息，仅支持微信支持手环抢红包，version为匹配的微信版本号 -->
+                        <autograb version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">
+                            LauncherUi:LauncherUI;ReceiveUi:LuckyMoneyReceiveUI;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type
+                        </autograb>
+                        <autograb version="6.(5.([5-9]|[1-9][0-9]+))">
+                            LauncherUi:LauncherUI;ReceiveUi:En_fba4b94f;DetailUi:LuckyMoneyDetailUI;packetKeyword:\u5fae\u4fe1\u7ea2\u5305;packetMsg:android.widget.LinearLayout;openButton:android.widget.Button;packetType:436207665;packetIdentifier:\u5b\u5fae\u4fe1\u7ea2\u5305\u5d;grabFailTip:\u624b\u6162\u4e86\uff0c\u7ea2\u5305\u6d3e\u5b8c\u4e86;groupMsgIdentifier:@chatroom;baseDelay:100;chatIdKey:Main_User;msgTypeKey:MainUI_User_Last_Msg_Type
+                        </autograb>
+                        <!-- view标签为界面识别时识别的具体界面标签，其中version属性为匹配的微信版本号，此标签可以包含rootView，container，keyword，maxDepth，maxCount，grade子节点 -->
+                        <view version="6.(5.([5-9]|[1-9][0-9]+))">
+                            <!-- rootView 为识别的特殊界面名，配此子节点时，不需要配container，keyword，maxDepth，maxCount子节点 -->
+                            <rootView>En_fba4b94f</rootView>
+                            <!-- grade为加速等级，当前限定为2-3，必选 -->
+                            <grade>3</grade>
+                        </view>
+                        <view version="6.([1-4].[0-9]+|5.[0-4]|[6-9].[0-9]+)|[7-9].(.*)$">
+                            <rootView>LuckyMoneyReceiveUI</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.eg.android.AlipayGphone" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <rootView>SnsCouponDetailActivity</rootView>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.tencent.mobileqq" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <!-- 当不配rootView子节点时，需要配container、keyword两个子节点，maxDepth和maxCount可选 -->
+                            <container>android.widget.RelativeLayout</container>
+                            <keyword>点击拆开</keyword>
+                            <maxDepth>3</maxDepth>
+                            <maxCount>12</maxCount>
+                            <grade>3</grade>
+                        </view>
+                    </app>
+                    <app name="com.gtgj.view" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.Button</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.yipiao" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.tieyou.train.ark" foreground="false" grade="1">
+                        <view version="^[0-9].(.*)$">
+                            <container>android.widget.TextView</container>
+                            <keyword>立即预订</keyword>
+                            <grade>2</grade>
+                        </view>
+                    </app>
+                    <app name="com.taobao.taobao" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.achievo.vipshop" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jingdong.app.mall" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="cn.amazon.mShop.android" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.dangdang.buy2" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.jm.android.jumei" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.mogujie" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.sankuai.meituan" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.thestore.main" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.tmall.wireless" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.vmall.client" foreground="true" grade="1">
+                        <time>
+                            <start>11-11 00:00:00</start>
+                            <end>11-11 23:59:59</end>
+                        </time>
+                    </app>
+                    <app name="com.sdu.didi.gui" foreground="true" grade="1"></app>
+                    <app name="com.MobileTicket" foreground="true" grade="1"></app>
+                    <app name="com.Kingdee.Express" foreground="true" grade="1"></app>
+                    <app name="com.cainiao.wireless" foreground="true" grade="1"></app>
+                    <app name="com.tencent.tmgp.sgame" foreground="true" grade="1" ps="1"></app>
+                </emcom_accelerate>
+            </xengine_features_config>
+        </product_config>
+    </region_config>
+</xengine>

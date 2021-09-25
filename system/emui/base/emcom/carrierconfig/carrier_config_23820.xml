@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELIA_DK 23820-->
+    <carrier_config>
+        <!-- UT NO TA  -->
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
+        <!-- VoWifi  -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="utParamsCfg">0:1</string>
+        <string name="vowifiHplmnListItem">23820, epdg.epc.mnc020.mcc238.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048,RCT_ALG_MODP3072</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="87900"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="86400"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <string name="vowifiRssiThreshold">-65,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="Ikev2DpdInterval" value="330"/>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">TELIA</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="20"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">01010101</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,4 @@
+version=1.10.17.107
+type=NONCELL
+subtype=EMUI6
+compatibleVersion=1

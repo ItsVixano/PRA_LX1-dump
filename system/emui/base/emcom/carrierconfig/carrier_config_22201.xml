@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TIM IT -->
+    <carrier_config>
+        <!--UT TA-->
+        <!--Google Message config begin -->
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="true"/>
+        <!--Google Message config end -->
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0" />
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="8080"/>
+        <string name="utParamsCfg">3:1,5:1,6:1,7:1,8:1,24:1</string>
+        <string name="utXcapRootUri">mtasxdms</string>
+        <boolean name="utBsfAuthBeUsed" value="false"/>
+        <int name="utOIRSourceMode" value="1"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

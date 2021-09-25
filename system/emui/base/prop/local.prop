@@ -1,0 +1,96 @@
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.build.version.emui=EmotionUI_8.0.0
+ro.config.ringtone=Huawei_Tune_Living.ogg
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+ro.config.alarm_alert=Aegean_Sea.ogg
+ro.config.notification_sound=Bongo.ogg
+ro.config.hw_enable_merge=true
+ro.config.app_big_icon_size=192
+ro.config.helix_enable=true
+ro.config.huawei_smallwindow=0,0,1080,1346
+ro.config.hw.security_volume=10
+ro.config.hw_eapsim=true
+ro.config.hw_multiscreen=true
+#DTS2017092702782 wangyue wx416818 20170929 begin
+#ro.config.hw_omacp=1
+#DTS2017092702782 wangyue wx416818 20170929 end
+ro.config.hw_RemindWifiToPdp=true
+ro.config.hw_wifipro_enable=true
+ro.config.hw_simpleui_enable=1
+ro.config.hw_singlehand=1
+ro.config.hw_vcardBase64=true
+ro.config.hw_voicemail_sim=true
+ro.config.switchPrimaryVolume=true
+ro.huawei.cust.oma=false
+ro.huawei.cust.oma_drm=false
+ro.config.hwtheme=1
+ro.config.hw_allow_rs_mms=true
+ro.config.hw_watermark=false
+ro.config.hw_hungtasklist=whitelist,system_server,SurfaceFlinger
+ro.config.hw_power_saving=true
+ro.config.attach_ip_type=IPV4V6
+fw.show_multiuserui=1
+fw.max_users=4
+ro.config.fp_navigation=true
+#DTS2017062607102 sunshan WX368293 20170707 begin
+ro.com.google.clientidbase=android-huawei
+ro.com.google.clientidbase.am=android-huawei
+ro.com.google.clientidbase.ms=android-huawei
+ro.com.google.clientidbase.wal=android-huawei
+#DTS2017062607102 sunshan WX368293 20170707 end
+ro.config.updatelocation=true
+# DTS2016060606663 shiyuanchang/00271386 20160704 begin
+ro.config.hw_support_clone_app=true
+# DTS2016060606663 shiyuanchang/00271386 20160704 end
+# AR0003N0CG zhangxin 329966 volte sim match begin
+ro.config.hw_volte_dyn=true
+# AR0003N0CG zhangxin 329966 volte sim match end
+# DTS2016071504271 jiacan 00373435 iaware switch begin
+ro.config.enable_iaware=true
+# DTS2016071504271 jiacan 00373435 iaware switch end
+# DTS2016092003327 xugang 00350031 perfhub fling switch begin
+ro.config.enable_perfhub_fling=true
+# DTS2016092003327 xugang 00350031 perfhub fling switch end
+#BEGIN PN: DTS2016092708075, Added by w00364765,2016/10/08
+ro.control.sleeplog=true
+#END PN: DTS2016092708075, Added by w00364765,2016/10/08
+#BEGIN PN: AR00055E33, Added by x00377846,2016/11/03
+ro.config.hw_OptiDBConfig=true
+#END PN: AR00055E33, Added by x00377846,2016/11/03
+ro.config.hw_eccNumUseRplmn=true
+ro.config.hw_useCtrlSocket=true
+ro.ril.ecclist=112,911,#911,*911
+ro.config.hw_lte_release=true
+# DTS2017041208862  liuwei/00327121 20170413 begin
+persist.radio.apm_sim_not_pwdn=1
+# DTS2017041208862  liuwei/00327121 20170413 end
+#add prop for patch system
+ro.patch.baseline.version=2.0
+# AR00090AB2 suduoduo/00364829 20170427 begin
+persist.jank.gameskip=true
+# AR00090AB2 suduoduo/00364829 20170427 end
+#DTS2017042803190 f00369726 20170503 begin
+ro.config.widevine_level3=true
+#DTS2017042803190 f00369726 20170503 end
+#AR0009432M s00376938 20170519 begin
+bt.max.hfpclient.connections=2
+bt.dpbap.enable=1
+#AR0009432M s00376938 20170519 end
+#DTS2017070608056 l00416202 20170706 begin
+ro.config.hw_emcom=true
+#DTS2017070608056 l00416202 20170706 end
+#AR0009ASCP s00376938 20170710 begin
+persist.bt.max.a2dp.connections=2
+#AR0009ASCP s00376938 20170710 end
+#AR00095393 gwx213998 20170720 begin
+ro.config.auto_display_mode=true
+#AR00095393 gwx213998 20170720 end
+#DTS2017091211790 d00345449 20170920 begin
+ro.config.ipv4.mtu=1400
+#DTS2017091211790 d00345449 20170920 end
+
+ro.config.hw_em_solution_ver=B046
+
+ro.comp.system_version=System 8.0.0.046(0C71)
+
+ro.confg.hw_systemversion=System 8.0.0.046(0C71)

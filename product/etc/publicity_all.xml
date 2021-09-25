@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="华为终端有限公司" feature="为FIDO（快速线上身份认证）协议提供底层能力支撑。" package="com.huawei.hwasm" label="com.huawei.hwasm">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="提供收音机功能。" package="com.huawei.android.FMRadio" label="com.huawei.android.FMRadio">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="为满足FIDO（快速线上身份认证）协议的应用提供基础能力支持，第三方应用可通过该应用绑定指纹完成在线身份认证。" package="com.huawei.fido.uafclient" label="com.huawei.fido.uafclient">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统资源。" package="com.android.frameworkres.overlay" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="游戏助手，对游戏进行标记，并且可以设置游戏省电模式，免打扰，按键防误触功能。" package="com.huawei.gameassistant" label="com.huawei.gameassistant">
+	</packageInfo>
+</packageList>

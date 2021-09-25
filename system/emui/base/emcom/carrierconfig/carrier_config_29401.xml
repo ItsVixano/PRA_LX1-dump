@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="2" />
+        <!--Google Message config end -->
+        <!--UT NO TA-->
+        <string name="utParamsCfg">19:1</string>
+    </carrier_config>
+</carrier_config_list>

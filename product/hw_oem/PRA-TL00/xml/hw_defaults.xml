@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <!-- DTS2016040714412 Modified by z00290953 20160413 begin -->
+    <string plmn="460003#46003#460011#46011#455007#45507#455002#45502,en_us,China Telecom;460003#46003#460011#46011#455007#45507#455002#45502,zh_CN,中国电信;460003#46003#460011#46011#455007#45507#455002#45502,zh_TW,中國電信;460003#46003#460011#46011#455007#45507#455002#45502,zh_HK,中國電信;460000#46000#460002#46002#460007#46007#460008#46008,en_us,China Mobile;460000#46000#460002#46002#460007#46007#460008#46008,zh_CN,中国移动;460000#46000#460002#46002#460007#46007#460008#46008,zh_TW,中國移動;460000#46000#460002#46002#460007#46007#460008#46008,zh_HK,中國移動;46009#460009#460001#46001#46006#460006,en_us,China Unicom;46009#460009#460001#46001#46006#460006,zh_CN,中国联通;46009#460009#460001#46001#46006#460006,zh_TW,中國聯通;46009#460009#460001#46001#46006#460006,zh_HK,中國聯通"/>
+    <!-- DTS2016040714412 Modified by z00290953 20160413 end -->
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <!--BEGIN PN:DTS2016031603473 , Deleted by cWX315496, 2016/03/18 -->
+    <!--delete <integer is_email_anr_support="1"/> -->
+    <!--END PN:DTS2016031603473 , Deleted by cWX315496, 2016/03/18 -->
+    <integer is_show_google="0"/>
+    <integer settings.secure.wifi_ap_channel="11"/>
+    <!-- BEGIN PN:DTS2016070703969 , Added by twx287320, 2016/07/07 -->
+    <integer hw_default_support_call_barring="1"/>
+    <!-- END PN:DTS2016070703969 , Added by twx287320, 2016/07/07 -->
+<!-- BEGIN PN:DTS2016081112080, Modified by c00290944, 2016/08/11 -->
+<string hw_def_theme="/data/hw_init/version/region_comm/china/themes/Default.hwt"/>
+<string hw_theme_sort="Default" reset="true"/>
+<!-- END PN:DTS2016081112080, Modified by c00290944, 2016/08/11 -->
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+    <!--******************************** 8.CUSTOM TEAM END -->
+    <!--BEGIN PN:DTS2015120903047, Added by twx287320, 2015/12/14 -->
+    <!--BEGIN PN:AR0008R7F8, Modified by x00184306, 2017/01/04 -->
+    <integer ca_settings_on="0"/>
+    <!--END PN:AR0008R7F8, Modified by x00184306, 2017/01/04 -->
+    <!--END PN:DTS2015120903047, Added  by twx287320, 2015/12/14 -->
+    <!--BEGIN PN: DTS2016112902408  , Added by lwx288597, 2016/11/29-->
+    <string custom_certify_picture="/product/etc/media/PRA-TL00.png" reset="true" />
+    <!--END PN: DTS2016112902408  , Added by lwx288597, 2016/11/29-->
+</resources>

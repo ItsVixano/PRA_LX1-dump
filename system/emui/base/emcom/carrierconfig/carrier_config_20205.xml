@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="5" />
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--Google Message config end -->
+        <!--RCS config begin -->
+        <string name="ims_ip">72.10.10.10</string>
+        <string name="ims_port">5060</string>
+        <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
+        <string name="hw_rcs_version">1</string>
+        <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <!--RCS config end -->
+        <!-- UT NO TA -->
+        <int name="callWaitingMode" value="11"/>
+        <!-- Volte UI -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false" />
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!--VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">20205, epdg.epc.mnc005.mcc202.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="3600"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifi_UT_APN">internet.vodafone.gr</string>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+    <carrier_config spn="null">
+        <string name="huawei_rcs_enabler">true</string>
+    </carrier_config>
+    <carrier_config spn="voda.*">
+        <string name="huawei_rcs_enabler">true</string>
+    </carrier_config>
+</carrier_config_list>

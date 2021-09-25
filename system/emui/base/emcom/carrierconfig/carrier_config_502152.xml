@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- YES MY -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utCSBeUsed" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="callWaitingMode" value="11"/>
+        <boolean name="utBsfAuthBeUsed" value="false"/>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

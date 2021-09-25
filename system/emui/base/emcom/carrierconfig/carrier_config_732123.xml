@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Movistar CO -->
+    <carrier_config>
+        <!--UT TA-->
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <int name="callWaitingMode" value="11" />
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true" />
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="vowifiHplmnListItem">732123, epdg.epc.mnc123.mcc732.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2DpdInterval" value="120" />
+        <int name="Ikev2PcscfIpv4Address" value="20" />
+        <int name="Ikev2PcscfIpv6Address" value="21" />
+        <string name="vowifiRssiThreshold">-66,-79,-6,-5</string>
+        <string name="vowifiWifiChip24GConf">-79,-74,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-74,3,1</string>
+        <string name="wfc_spn_string">Movistar</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101001</string>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--SMART_PH-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <!-- VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">51503,epdg.epc.mnc003.mcc515.pub.3gppnetwork.org</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="14400"/>
+        <int name="Ikev2SaLifeTime" value="14400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="14400"/>
+        <int name="IPsecSaLifeTime" value="14400"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+    </carrier_config>
+</carrier_config_list>

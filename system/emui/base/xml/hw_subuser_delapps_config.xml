@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this config file is used to exclude some system app  for sub users. -->
+<del_app_list>
+    <del_app packageName="com.huawei.android.hwouc"/>
+    <del_app packageName="com.huawei.vdrive"/>
+    <del_app packageName="com.huawei.health"/>
+    <del_app packageName="com.besttone.hall"/>
+    <del_app packageName="com.ct.client"/>
+    <del_app packageName="com.unioncast.oleducation"/>
+    <del_app packageName="com.telecom.video.ikan4g"/>
+    <del_app packageName="com.UCMobile"/>
+    <del_app packageName="com.corp21cn.flowpay"/>
+    <del_app packageName="fm.xiami.main"/>
+    <del_app packageName="com.lectek.android.sfreader"/>
+    <del_app packageName="com.huawei.mmitest"/>
+    <del_app packageName="com.huawei.hiview"/>
+    <del_app packageName="com.huawei.bd"/>
+    <del_app packageName="com.huawei.iaware"/>
+    <!-- DTS2016112909724 tongben 00264519 delete betaclub in sub users begin -->
+    <del_app packageName="com.huawei.betaclub"/>
+    <!-- DTS2016112909724 tongben 00264519 delete betaclub in sub users end -->
+    <!-- DTS2017030606456 caoshen cwx389554 delete parentcontrol in sub users begin -->
+    <del_app packageName="com.huawei.parentcontrol"/>
+    <!-- DTS2017030606456 caoshen cwx389554 delete parentcontrol in sub users end -->
+    <!-- DTS2017080209579 wangjue 00369818 delete HwChrService in sub users begin -->
+    <del_app packageName="com.huawei.android.chr"/>
+    <!-- DTS2017080209579 wangjue 00369818 delete HwChrService in sub users end -->
+    <del_app packageName="com.huawei.gameassistant"/>
+    <!-- DTS2017101908123 renyanmeng 00178559 delete airsharing in sub users begin -->
+    <del_app packageName="com.huawei.android.airsharing"/>
+    <!-- DTS2017101908123 renyanmeng 00178559 delete airsharing in sub users end -->
+    <!--DTS2017122510436 gaoxiang wx471760 delete kismode in sub users begin -->
+    <del_app packageName="com.huawei.kidsmode"/>
+    <!-- DTS2017122510436 gaoxiang wx471760 delete kismode in sub users end -->
+</del_app_list>

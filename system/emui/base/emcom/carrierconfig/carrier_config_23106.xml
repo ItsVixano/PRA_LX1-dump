@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--O2_SK 23106-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="utUseApn" value="1"/>
+        <string name="utParamsCfg">0:1,1:1,6:1,9:2,13:1,14:1</string>
+        <int name="callWaitingMode" value="3"/>
+        <int name="utBsfPort" value="80"/>
+        <int name="utBearType" value="2"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc006.mcc231.pub.3gppnetwork.org</string>
+    </carrier_config>
+</carrier_config_list>

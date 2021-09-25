@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Telia(EMT) EE -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1</string>
+        <boolean name="suppport_cnap_bool" value="true"/>
+        <!-- AR0009L1Q8 w00186414 2017/09/15 begin -->
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- AR0009L1Q8 w00186414 2017/09/15 end -->
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00100000</string>
+    </carrier_config>
+</carrier_config_list>

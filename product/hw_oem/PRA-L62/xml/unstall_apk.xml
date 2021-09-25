@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+        <apk>
+        <!--BEGIN PN: DTS2016012003766  , Added by cwx315496, 2016/01/22 -->
+        <!--DTS2018011708203 qinwen wx434148 20180126 begin -->
+         /system/priv-app/HWCardManager.apk;
+        <!--DTS2018011708203 qinwen wx434148 20180126 end -->
+        <!--END PN: DTS2016012003766  , Added by cwx315496, 2016/01/22-->
+        <!-- BEGIN PN:DTS2016101701131, Added by yaoxu/00358439, 2016/10/18 -->
+        /system/priv-app/CellBroadcastReceiver.apk;
+        <!-- END   PN:DTS2016101701131, Added by yaoxu/00358439, 2016/10/18 -->
+        <!--BEGIN PN:DTS2016082510967, Added by w00359131, 2016/08/25 -->
+        <!--END PN:DTS2016082510967, Added by w00359131, 2016/08/25 -->
+        /system/priv-app/Tag.apk;
+       </apk>
+    </tag>

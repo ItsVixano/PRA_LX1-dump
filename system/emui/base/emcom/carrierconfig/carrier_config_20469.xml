@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VDF_DE-->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="443"/>
+        <boolean name="utNafUseHttps" value="true"/>
+        <int name="utBsfPort" value="443"/>
+        <boolean name="utBsfUsehttps" value="true"/>
+        <string name="utParamsCfg">1:1,2:1,3:1,12:0,14:1,15:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,2 @@
+/product/app/HwFMRadio/HwFMRadio.apk
+/data/hw_init/product/app/HwGameAssistant/HwGameAssistant.apk

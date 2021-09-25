@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--RIL_IN 405871 -->
+    <carrier_config>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--UT TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <int name="utNafPort" value="7077" />
+        <string name="utBsfSrvAddr">bsf.ims.mnc871.mcc405.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="7080" />
+        <!--VOLTE TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<smartcare version="001.001">
+        <region_config name="default">                      <!--1级标签，地域配置，需要配置地域名称属性（国内或海外）-->
+            <product_config name="default">                    <!--2级标签，产品配置，需要配置产品名称属性-->
+                <smartcare_features_config>                        <!--3级标签，产品配置-->
+                    <page_timeout>30</page_timeout>
+                    <sample_period>710</sample_period>
+                    <sample_interval>720</sample_interval>
+                    <tcp_quality_switch>1</tcp_quality_switch>
+                    <max_report_apps>3</max_report_apps>
+                    <app_report_order>browser,wechat,email,video</app_report_order>
+                    <video_sr_delay_thres>2000</video_sr_delay_thres>                          <!--视频接入时延门限，单位：毫秒-->
+                    <video_intbuffer_full_delay_thres>3000</video_intbuffer_full_delay_thres>  <!--视频初缓时延门限，单位：毫秒-->
+                    <video_stalling_times_thres>0</video_stalling_times_thres>                 <!--视频卡顿次数门限，单位：次-->
+                    <video_stalling_duration_thres>0</video_stalling_duration_thres>           <!--视频卡顿时长门限，单位：毫秒-->
+                    <package>
+                         <package_name>com.android.chrome</package_name>
+                         <switch>1</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.browser</package_name>
+                         <switch>1</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.qihoo.browser</package_name>
+                         <switch>1</switch>
+                         <type>browser</type>
+                    </package>
+                    <package>
+                         <package_name>com.tencent.mm</package_name>
+                         <switch>1</switch>
+                         <type>wechat</type>
+                    </package>
+                    <package>
+                         <package_name>com.huawei.himovie</package_name>
+                         <switch>1</switch>
+                         <type>video</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.email</package_name>
+                         <switch>1</switch>
+                         <type>email</type>
+                    </package>
+                    <package>
+                         <package_name>com.android.exchange</package_name>
+                         <switch>1</switch>
+                         <type>email</type>
+                    </package>
+                    <wechat version="6.([1-4].[0-9]+|5.[0-4])">ReceiveUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI;DetailUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI;SendStartUi:com.tencent.mm.ui.base.i;SendFailUi:com.tencent.mm.ui.base.h;ToastContainer:android.widget.LinearLayout;GrabStartUi:android.widget.LinearLayout;OpenStartUi:android.widget.Button;SendStartKeyword:塞钱进红包;SendStartButton:android.widget.Button;WalletTip:微信支付;PacketKeyword:微信红包;SendSuccTip:已发送;PacketIdentifier:[微信红包];PacketType:436207665;GroupMsgIdentifier:@chatroom;ChatIdKey:Main_User;MsgTypeKey:MainUI_User_Last_Msg_Type</wechat>
+                    <wechat version="6.(5.([5-9]|[1-9][0-9]+)|[6-9].[0-9]+)|[7-9].(.*)$">SendStartKeyword:塞钱进红包;SendStartButton:android.widget.Button;ReceiveUi:com.tencent.mm.plugin.luckymoney.ui.En_fba4b94f;DetailUi:com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyDetailUI;SendStartUi:com.tencent.mm.ui.base.i;SendFailUi:com.tencent.mm.ui.base.h;ToastContainer:android.widget.LinearLayout;GrabStartUi:android.widget.LinearLayout;OpenStartUi:android.widget.Button;TimeoutTip:网络通信出现问题，请稍后再试;BusyTip:系统繁忙，请稍后再试;WalletTip:微信支付;PacketKeyword:微信红包;SendSuccTip:已发送;PacketIdentifier:[微信红包];PacketType:436207665;GroupMsgIdentifier:@chatroom;ChatIdKey:Main_User;MsgTypeKey:MainUI_User_Last_Msg_Type</wechat>
+                </smartcare_features_config>
+            </product_config>
+        </region_config>
+</smartcare>

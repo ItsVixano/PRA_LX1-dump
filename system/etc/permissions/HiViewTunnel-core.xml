@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <library name="HiViewTunnel-core-doubleofficer"
+        file="/version/region_comm/oversea/jar/HiViewTunnel_core/HiViewTunnel-core.jar" />
+    <library name="HiViewTunnel-core"
+        file="/version/jar/HiViewTunnel_core/HiViewTunnel-core.jar" />
+    <library name="HiViewTunnel-ue-doubleofficer"
+        file="/version/region_comm/oversea/jar/HiViewTunnel_ue/HiViewTunnel-ue.jar" />
+    <library name="HiViewTunnel-ue"
+        file="/version/jar/HiViewTunnel_ue/HiViewTunnel-ue.jar" />
+    <library name="HiView-rdebug"
+        file="/version/jar/HiView/HiView-rdebug.jar" />
+</permissions>

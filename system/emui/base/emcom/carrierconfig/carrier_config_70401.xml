@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Claro GT -->
+    <carrier_config>
+        <!-- UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc001.mcc704.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">70401, epdg.ims.mnc001.mcc704.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2SaLifeTime" value="3600" />
+        <int name="IPsecSaLifeTime" value="1800" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="1500"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifi_UT_APN">internet.ideasclaro</string>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+</carrier_config_list>

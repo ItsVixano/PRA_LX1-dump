@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CLARO CO-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <string name="vowifiHplmnListItem">732101,epdg.ims.mnc101.mcc732.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <int name="Ikev2DpdInterval" value="10"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16390"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="86400"/>
+        <string name="vowifi_UT_APN">internet.comcel.com.co</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- Google Message -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+    </carrier_config>
+</carrier_config_list>

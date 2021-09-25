@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<carrier_config_list>
+    <!--DT_AT 23207-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="callWaitingMode" value="11"/>
+        <int name="utOIRSourceMode" value="1"/>
+        <int name="smsToMmsTextThreshold" value="5" />
+        <string name="utParamsCfg">19:1</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

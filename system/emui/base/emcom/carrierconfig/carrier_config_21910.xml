@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VIPNET_HR 21910-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <string name="utBsfSrvAddr">bsf.ims.mnc010.mcc219.pub.3gppnetwork.org</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+</carrier_config_list>

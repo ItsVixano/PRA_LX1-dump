@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELENOR BG -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <boolean name="CFNRcChangeWithCFNL" value="true"/>
+        <int name="setDefaultNoReplyTimer" value="30"/>
+        <int name="utBsfPort" value="80"/>
+        <!-- AR0009L28M w00186414 2017/09/15 begin -->
+        <!-- <int name="utUseApn" value="1"/> -->
+        <int name="callWaitingMode" value="7"/>
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <!-- AR0009L28M w00186414 2017/09/15 end -->
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="vowifiHplmnListItem">28405, epdg.epc.mnc005.mcc284.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="IPsecSaLifeTime" value="28800" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800" />
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifi_UT_APN">xcap</string>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="wfc_spn_string">Telenor</string>
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

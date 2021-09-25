@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VHA_AU-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <int name="callWaitingMode" value="7"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="3" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2" />
+        <boolean name="vowifi_mms_switch" value="true" />
+        <boolean name="vowifi_ut_switch" value="true" />
+        <boolean name="vowifi_roaming_switch" value="true" />
+        <boolean name="vowifi_mmsut_roaming_switch" value="true" />
+        <int name="vowifiRoamingConfig" value="0" />
+        <string name="vowifi_UT_APN">hos</string>
+        <string name="vowifiHplmnListItem">50506, epdg.epc.mnc006.mcc505.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SaLifeTime" value="64800" />
+        <int name="IPsecSaLifeTime" value="64800" />
+        <int name="Ikev2PcscfIpv4Address" value="20" />
+        <int name="Ikev2PcscfIpv6Address" value="21" />
+        <int name="Ikev2MaxRetryToSend" value="5" />
+        <int name="Ikev2IntervalToSend" value="10" />
+        <int name="Ikev2DpdInterval" value="90" />
+        <string name="vowifiRssiThreshold">-66,-74,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-74,-67,3,1</string>
+        <string name="vowifiWifiChip5GConf">-74,-67,3,1</string>
+    </carrier_config>
+</carrier_config_list>

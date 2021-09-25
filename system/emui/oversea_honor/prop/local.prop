@@ -1,0 +1,13 @@
+ro.config.ringtone=Huawei_Tune_Living.ogg
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+#BEGIN PN:DTS2016090804666 Added by wwx270239 2016/09/12
+ro.cofig.onlinevideo.enabled=false
+ro.cofig.onlinemusic.enabled=false
+#END PN:DTS2016090804666 Added by wwx270239 2016/09/12
+ro.config.hw_vassistant_honor=true
+#DTS2017080902546 liujinjie 293362 20170811 begin
+ro.setupwizard.wifi_on_exit=false
+#DTS2017080902546 liujinjie 293362 20170811 end
+# DTS2017041803335 lifan 194150 20170417 begin
+ro.config.hw_globalEcc=true
+# DTS2017041803335 lifan 194150 20170417 end

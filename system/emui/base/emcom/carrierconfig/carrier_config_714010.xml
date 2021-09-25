@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- CWP PA -->
+    <carrier_config>
+        <!-- UT NO TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <int name="callWaitingMode" value="11"/>
+        <!-- Volte UI -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">714010, epdg.epc.mnc010.mcc714.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="28800" />
+        <int name="IPsecSaLifeTime" value="28800" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="28800"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2IntervalToSend" value="4" />
+        <int name="Ikev2MaxRetryToSend" value="3" />
+        <int name="Ikev2DpdInterval" value="600" />
+        <int name="Ikev2DpdMaxFails" value="3" />
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <boolean name="vowifi_roaming_switch" value="true" />
+    </carrier_config>
+</carrier_config_list>

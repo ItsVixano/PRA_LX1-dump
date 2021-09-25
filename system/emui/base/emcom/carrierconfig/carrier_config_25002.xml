@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--MEGAFON_RU-->
+    <carrier_config>
+        <!--VOLTE NO TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true" />
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- VoWiFi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

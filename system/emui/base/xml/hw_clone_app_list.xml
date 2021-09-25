@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2016060606663 shiyuanchang/00271386 20160704 created -->
+<AppClone>
+    <package name="com.tencent.mm"/>
+    <package name="com.tencent.mobileqq"/>
+    <package name="com.facebook.katana"/>
+    <package name="com.whatsapp"/>
+    <package name="jp.naver.line.android"/>
+    <package name="com.snapchat.android"/>
+    <package name="com.facebook.orca"/>
+</AppClone>

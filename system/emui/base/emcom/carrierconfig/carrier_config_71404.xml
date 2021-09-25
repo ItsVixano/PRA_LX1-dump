@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--DIGICEL_CW 71404-->
+    <carrier_config>
+        <!--UT NO TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="8443"/>
+        <int name="utBsfPort" value="8443"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

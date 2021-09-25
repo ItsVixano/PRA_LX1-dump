@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+  <!--ET_AE 42402-->
+  <carrier_config>
+     <!--UT -->
+    <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+    <int name="callWaitingMode" value="11"/>
+    <string name="utNafSrvAddr">xcap.ims.mnc002.mcc424.pub.3gppnetwork.org</string>
+    <int name="utNafPort" value="8080"/>
+    <string name="utBsfSrvAddr">bsf.ims.mnc002.mcc424.pub.3gppnetwork.org</string>
+    <int name="utBsfPort" value="8088"/>
+    <!-- Volte UI -->
+    <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    <!--VOWifi-->
+    <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+    <boolean name="vowifi_ut_switch" value="true"/>
+    <string name="vowifiHplmnListItem">42402,epdg.epc.mnc002.mcc424.etisalat.ae</string>
+    <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
+    <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_AES_XCBC</string>
+    <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384</string>
+    <string name="Ikev2DhGroup">RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+    <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+    <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384</string>
+    <int name="Ikev2SaLifeTime" value="3600"/>
+    <int name="IPsecSaLifeTime" value="3600"/>
+    <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+    <int name="Ikev2IPsecSaRekeyTimeSec" value="3600"/>
+    <string name="vowifi_UT_APN">ut</string>
+    <int name="vowifiRoamingConfig" value="0"/>
+    <boolean name="vowifiStaticUnroaming" value="true"/>
+    <boolean name="vowifiStaticRoaming" value="true"/>
+  </carrier_config>
+</carrier_config_list>

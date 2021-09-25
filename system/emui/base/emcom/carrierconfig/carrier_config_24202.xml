@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELIA NO -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1</string>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">24202, epdg.epc.mnc002.mcc242.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="IPsecSaLifeTime" value="28800"/>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

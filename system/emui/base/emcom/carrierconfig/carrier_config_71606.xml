@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Movistar PE -->
+    <carrier_config>
+        <!--UT TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA -->
+        <boolean name="vowifi_ut_switch" value="true" />
+        <string name="vowifiHplmnListItem">71606, epdg.epc.mnc006.mcc716.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="1500" />
+        <int name="Ikev2MaxRetryToSend" value="3" />
+        <int name="IPsecSaLifeTime" value="3600" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="1500" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="1800" />
+        <string name="vowifi_UT_APN">XCAP</string>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--Google Message config end -->
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- PLUS PL -->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">26001, 31.0.16.73</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <string name="vowifi_UT_APN">HOS</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+    </carrier_config>
+</carrier_config_list>

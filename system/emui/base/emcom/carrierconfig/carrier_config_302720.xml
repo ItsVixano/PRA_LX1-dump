@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- ROGERS CA 302720 -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc720.mcc302.pub.3gppnetwork.org</string>
+        <string name="utBsfSrvAddr">bsf.ims.mnc720.mcc302.pub.3gppnetwork.org</string>
+        <string name="utParamsCfg">0:1</string>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="suppport_cnap_bool" value="true"/>
+        <string name="carrierconfig_enhanced_video_feature">000100010100</string>
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
+        <boolean name="vilte_data_is_metered_bool" value="false" />
+        <!--Google Message config begin -->
+        <boolean name="useCustomUserAgent" value="true" />
+        <!--Google Message config end -->
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">302720, epdg.epc.mnc720.mcc302.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192,RCT_ALG_MODP1024,RCT_ALG_MODP1536</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SaLifeTime" value="43200"/>
+        <int name="Ikev2MaxRetryToSend" value="5"/>
+        <int name="IPsecSaLifeTime" value="43200"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="43200"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="43200"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">netsvcs</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+    </carrier_config>
+</carrier_config_list>

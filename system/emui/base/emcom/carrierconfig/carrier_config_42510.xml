@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- PARTNER IL -->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">42510, epdg.epc.mnc010.mcc425.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <string name="vowifi_UT_APN">XCAP</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true" />
+        <boolean name="vowifi_mmsut_roaming_switch" value="true" />
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101000</string>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101000</string>
+    </carrier_config>
+</carrier_config_list>

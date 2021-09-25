@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--FASTLINK_IQ-->
+    <carrier_config>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- Vowifi -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <string name="vowifiHplmnListItem">41866, epdg.epc.mnc066.mcc418.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_MD5</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <int name="utBsfPort" value="80"/>
+    </carrier_config>
+</carrier_config_list>

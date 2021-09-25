@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- KDDI JP -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="3"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc051.mcc440.pub.3gppnetwork.org</string>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc051.mcc440.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <int name="utGbaType" value="0"/>
+        <string name="utParamsCfg">0:1</string>
+        <string name="utXcapRootUri">mtasxdms</string>
+        <boolean name="utBsfAuthBeUsed" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">01010101</string>
+        <!-- AR000AL3SV yangqirun/ywx566420 20180601 begin -->
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!-- AR000AL3SV yangqirun/ywx566420 20180601 end -->
+    </carrier_config>
+</carrier_config_list>

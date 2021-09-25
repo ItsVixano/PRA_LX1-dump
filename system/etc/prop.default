@@ -1,0 +1,15 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Mon Jun 4 22:08:04 CST 2018
+ro.bootimage.build.date.utc=1528121284
+ro.bootimage.build.fingerprint=Huawei/generic_a15/generic_a15:8.0.0/OPR6.170623.010/jslave06042206:user/test-keys
+persist.sys.usb.config=none

@@ -1,0 +1,3 @@
+service hwnffserver  /system/bin/hwnffserver
+    class main
+    seclabel u:r:hwnffserver:s0

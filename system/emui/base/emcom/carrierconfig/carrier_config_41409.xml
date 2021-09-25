@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--MYTEL_MM 41409-->
+    <carrier_config>
+        <!--UT NO TA -->
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc009.mcc414.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <int name="utBearType" value="2"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+</carrier_config_list>

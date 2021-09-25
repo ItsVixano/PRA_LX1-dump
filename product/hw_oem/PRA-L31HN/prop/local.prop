@@ -1,0 +1,181 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+net.tethering.noprovisioning=true
+#BEGIN PN:DTS2015102600671 MODIFY BY w00271355, 2015/11/18
+#delete persist.sys.dualcards=false
+#END PN:DTS2015102600671 MODIFY BY w00271355, 2015/11/18
+ro.config.hw_dsdspowerup=true
+#BEGIN PN:DTS2015102600755,Added by p00345816,2015/10/30
+ro.config.hw_globalEcc=true
+#END PN:DTS2015102600755,Added by p00345816,2015/10/30
+#BEGIN PN:DTS2016030906354,Deleted by p00345816,2016/3/26
+#ro.config.ecc_from_cust_enable=true
+#END PN:DTS2016030906354,Deleted by p00345816,2016/3/26
+#BEGIN PN:DTS2016070608814,Add by z00290953,2016/07/07
+ro.config.hw_show_4G_Plus_icon=true
+#END PN:DTS2016070608814,Add by z00290953,2016/07/07
+#BEGIN PN:DTS2016010903236,Added by p00345816,2015/11/19
+#BEGIN PN:DTS2016022605628,Deleted by p00345816,2016/2/27
+#ro.hwpp.wcdma_voice_preference=true
+#END PN:DTS2016022605628,Deleted by p00345816,2016/2/27
+#END PN:DTS2016010903236,Added by p00345816,2015/11/19
+#BEGIN PN:DTS2016030906354,Deleted by p00345816,2016/3/10
+#ro.config.hw_vtlte_on=false
+#END PN:DTS2016030906354,Deleted by p00345816,2016/3/10
+#DTS2016111405670 guchaowu00211168 20161114 begin
+#DTS2017122101514 fanxingpan WX322000 20171221 begin
+ro.config.hw_vowifi=true
+ro.config.hw_vowifi_mmsut=true
+#DTS2017122101514 fanxingpan WX322000 20171221 end
+#DTS2016111405670 guchaowu00211168 20161114 end
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+# BEGIN PN:DTS2015112807090, Added by lixiaoyi 00181423, 2015/12/23
+ro.config.data_preinstalled=true
+# END PN:DTS2015112807090, Added by lixiaoyi 00181423, 2015/12/23
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+#BEGIN PN:DTS2016090610650 Added by w00359131,200160906
+ro.config.hw_volte_dyn=true
+#END PN:DTS2016090610650 Added by w00359131,20160906
+ro.cofig.onlinemusic.enabled=false
+ro.cofig.onlinevideo.enabled=false
+# BEGIN PN:DTS2016022200682, Modified by cWX315496, 2016/02/22
+#BEGIN PN: DTS2016070703967  , Delete by lwx314662, 2016/7/7
+#ro.config.hw_use_browser_ua=http://wap1.huawei.com/uaprof/HUAWEI_VNS-L31_7_0_UAProfile.xml
+#END PN: DTS2016070703967  , Delete by lwx314662, 2016/7/7
+# END PN:DTS2016022200682 , Modified by cWX315496, 2016/02/22
+ro.config.hw_showTestInfo=false
+ro.config.hw_lte_support=true
+#DTS2015121601207 z00183245 add begin
+ro.frp.pst=/dev/block/platform/hi_mci.0/by-name/frp
+#DTS2015121601207 z00183245 add end
+#DTS2015112101759 l00248462 delete begin
+#DTS2015112101759 l00248462 delete end
+ro.config.hw_showSimName=true
+ro.config.show_sim_icon=true
+# BEGIN PN: DTS2016070704233, Deleted by wangjiangjiang /w00355676, 2016/07/07
+# BEGIN PN: DTS2015121405701, Added by caomingming /wx239687, 2015/12/14 */
+
+# END   PN: DTS2015121405701, Added by caomingming /wx239687, 2015/12/14 */
+# END PN: DTS2016070704233, Deleted by wangjiangjiang /w00355676, 2016/07/07
+ro.config.nfc_ce_transevt=true
+#BEGIN PN: DTS2016032809168,Modified by cWX315496, 2016/03/28
+#ro.config.hw_nfc_gcf=true
+#END PN: DTS2016032809168,Modified by cWX315496, 2016/03/28
+#BEGIN PN:DTS2016031704002  Added by g00185556  2016/03/21
+#BEGIN PN: AR0007S5PK ,modified by wx355204, 2016/11/25
+ro.config.marketing_name=Honor 8 Lite
+#END PN: AR0007S5PK ,modified by wx355204, 2016/11/25
+#END   PN:DTS2016031704002  Added by g00185556  2016/03/21
+#BEGIN PN:DTS2016032100742, Added by g00185556, 2016/03/21
+ro.config.wifi_reduce_power=true,17,17,17,17,12
+#END   PN:DTS2016032100742, Added by g00185556, 2016/03/21
+#BEGIN PN:DTS2016070704068 Added by w00219312 20160707
+ro.product.hardwareversion=HL2PRAM
+#END PN:DTS2016070704068 Added by w00219312 20160707
+#DTS2016070703969 twx287320 20160707 begin
+ro.config.support_ca=true
+#DTS2016070703969 twx287320 20160707 end
+#BEGIN AR0008581N Modified by cwx355204 20161202
+ro.config.safety_certification=FCC
+#END AR0008581N Modified by cwx355204 20161202
+#BEGIN PN:AR0007S5PJ Added by cWX355204 20161125
+ro.config.ringtone=Huawei_Tune_Living.ogg
+ro.config.ringtone2=Huawei_Tune_Clean.ogg
+#END PN:AR0007S5PJ Added by cWX355204 20161125
+#BEGIN PN:DTS2016111708412 Added by x00184306 20161128
+ro.check.modem_network=true
+#BEGIN PN:DTS2016111708412 Added by x00184306 20161128
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+ro.config.hw.security_volume=8
+#BEGIN PN: DTS2016102815001  Add by c00367273, 2016/10/28
+ro.config.amrwb_disable=true
+#END PN: DTS2016102815001  Add by c00367273, 2016/10/28
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+ro.config.spare_ntp_server=ntp.sjtu.edu.cn,time.windows.com,time.nist.gov,1.cn.pool.ntp.org
+ro.config.hw_channel_info=0,0,0,0
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+#DTS2015110202637 zengwei/00182000 20151102 begin
+ro.config.hw_always_allow_mms=1
+#DTS2015110202637 zengwei/00182000 20151102 end
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+#BEGIN PN: DTS2016070601551 ,modified by z00278185, 2016/07/14
+#BEGIN PN: DTS2016082510649, modified by z00278185, 2016/08/25
+ro.product.name=PRA-LX1
+#BEGIN PN: AR0007S5PK, modified by cWX355204, 2016/11/25
+ro.build.id=HONORPRA-LX1
+ro.product.brand=HONOR
+#END PN: AR0007S5PK, modified by cWX355204, 2016/11/25
+#END PN: DTS2016082510649, modified by z00278185, 2016/08/25
+ro.product.model=PRA-LX1
+#END PN: DTS2016070601551, modified by z00278185, 2016/07/14
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+

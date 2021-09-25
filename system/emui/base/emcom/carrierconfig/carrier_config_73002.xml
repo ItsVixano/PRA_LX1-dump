@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- MOVISTAR CL-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc002.mcc730.pub.3gppnetwork.org</string>
+        <string name="utParamsCfg">0:1,1:1</string>
+        <int name="utBearType" value="2"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">73002, epdg.epc.mnc002.mcc730.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384</string>
+        <int name="Ikev2SaLifeTime" value="3600" />
+        <int name="IPsecSaLifeTime" value="3600" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="3600"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16386"/>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+    </carrier_config>
+</carrier_config_list>

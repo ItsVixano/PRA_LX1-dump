@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- GLOBE PH-->
+    <carrier_config>
+        <!--UT TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="443"/>
+        <boolean name="utNafUseHttps" value="true"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc002.mcc515.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="443"/>
+        <boolean name="utBsfUsehttps" value="true"/>
+        <string name="utParamsCfg">4:1</string>
+        <!--VOLTE TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
+        <!--VOWIFI TA -->
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">51502, weconnect.globe.com.ph</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SaLifeTime" value="900" />
+        <int name="IPsecSaLifeTime" value="900" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="900" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="900" />
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <string name="vowifi_UT_APN">xcap</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

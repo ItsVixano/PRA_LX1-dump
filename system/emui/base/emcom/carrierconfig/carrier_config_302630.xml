@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- Bell CA-->
+    <carrier_config>
+        <!--UT TA -->
+        <int name="callWaitingMode" value="11"/>
+        <string name="utParamsCfg">1:2,4:1</string>
+        <string name="utXcapRootUri">MyService</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <string name="utNafSrvAddr">naf.ims.bell.ca</string>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.bell.ca</string>
+        <int name="utBsfPort" value="1080"/>
+        <string name="impiDomain">ims.bell.ca</string>
+        <!--VOLTE TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI TA -->
+        <string name="vowifiHplmnListItem">302630, epdg.epc.mnc630.mcc302.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC, RCT_ALG_AES256_CBC, RCT_ALG_DES3_CBC, RCT_ALG_AES192_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SaLifeTime" value="80000" />
+        <int name="IPsecSaLifeTime" value="80000" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="64800" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="64800" />
+        <int name="Ikev2SelfIdType" value="63" />
+        <int name="Ikev2PeerIdType" value="65" />
+        <int name="Ikev2PcscfIpv4Address" value="20" />
+        <int name="Ikev2PcscfIpv6Address" value="21" />
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <!--Google Message config begin -->
+        <boolean name="useCustomUserAgent" value="true" />
+        <!--Google Message config end -->
+    </carrier_config>
+</carrier_config_list>

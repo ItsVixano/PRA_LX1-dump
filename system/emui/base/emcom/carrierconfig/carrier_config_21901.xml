@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--DT_HR-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="-1"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utParamsCfg">0:1,19:1</string>
+        <boolean name="utBsfAuthBeUsed" value="true"/>
+        <int name="utOIRSourceMode" value="1"/>
+        <boolean name="carrier_build_version_bool" value="true"/>
+        <boolean name="use_403_for_local_cw" value="true"/>
+        <boolean name="carrier_xcap_data_roaming_switch" value="true"/>
+        <boolean name="utUseMultiCF" value="true"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00100000</string>
+        <!--VOWIFI NO TA-->
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="3"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <string name="wfc_spn_string">HT HR</string>
+        <string name="wfc_format_wifi_string">%1$s WiFi calling</string>
+        <string name="vowifi_UT_APN">hos</string>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifiHplmnListItem">21901, epdg.epc.mnc001.mcc219.pub.3gppnetwork.org</string>
+        <string name="carrier_vowifi_title">WiFi poziv</string>
+    </carrier_config>
+</carrier_config_list>

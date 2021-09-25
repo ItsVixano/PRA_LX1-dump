@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--WIND_IT 22288-->
+    <carrier_config>
+        <!-- UT NO TA -->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utNafPort" value="8080"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc088.mcc222.pub.3gppnetwork.org</string>
+        <!-- VOLTE NO TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- VOWIFI NO TA -->
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">22288, epdg.epc.mnc088.mcc222.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_384</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="64800"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="64800"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">XCAP</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--VELCOM_BY-->
+    <carrier_config>
+        <!--VOWIFI TA-->
+        <string name="vowifiHplmnListItem">25701,epdg.epc.mnc001.mcc257.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="28800"/>
+        <int name="Ikev2SaLifeTime" value="28800"/>
+        <int name="IPsecSaLifeTime" value="28800"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <!-- VOWIFI UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <boolean name="carrier_close_vowifi_airplane_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

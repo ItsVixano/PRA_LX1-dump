@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF PT -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <int name="smsToMmsTextThreshold" value="5" />
+        <!--Google Message config end -->
+        <!--UT TA-->
+        <int name="utUseApn" value="3"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="callWaitingMode" value="3"/>
+        <string name="utParamsCfg">0:1,5:1,6:1,7:1</string>
+        <boolean name="utBsfAuthBeUsed" value="false"/>
+        <!--VOLTE TA-->
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!--RCS config begin -->
+        <string name="ims_ip">72.10.10.10</string>
+        <string name="ims_port">5060</string>
+        <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
+        <string name="hw_rcs_version">1</string>
+        <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <!--RCS config end -->
+    </carrier_config>
+    <carrier_config spn="null">
+        <string name="huawei_rcs_enabler">true</string>
+    </carrier_config>
+    <carrier_config spn="voda.*">
+        <string name="huawei_rcs_enabler">true</string>
+    </carrier_config>
+</carrier_config_list>

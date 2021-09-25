@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- PRO BE -->
+    <carrier_config>
+        <int name="utUseApn" value="1"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc001.mcc206.pub.3gppnetwork.org</string>
+        <int name="utNafPort" value="80"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc001.mcc206.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">1:1,6:1,19:1</string>
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true" />
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

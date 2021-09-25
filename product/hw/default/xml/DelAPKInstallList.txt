@@ -1,0 +1,10 @@
+/data/dataapp/Emag_GameHall/Emag_GameHall.apk
+/data/dataapp/MM/MM.apk
+/data/dataapp/MM_SafeCenter/MM_SafeCenter.apk
+/data/dataapp/360/360.apk
+/data/dataapp/CMCC_BaiduSearch/CMCC_BaiduSearch.apk
+/data/dataapp/CMCC_Sina/CMCC_Sina.apk
+/data/dataapp/iFlyIME/iFlyIME.apk
+/data/dataapp/Letv/Letv.apk
+/data/dataapp/meituan/meituan.apk
+/data/dataapp/WPS/WPS.apk

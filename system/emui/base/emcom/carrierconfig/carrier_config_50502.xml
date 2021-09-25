@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- OPTUS AU-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <string name="ssTypeUseCsOnly">1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23</string>
+        <int name="utOIRSourceMode" value="1" />
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101001</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <string name="vowifiHplmnListItem">50502,epdg.epc.mnc002.mcc505.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_HMAC_SHA2_256, RCT_ALG_HMAC_SHA2_384, RCT_ALG_HMAC_SHA2_512, RCT_ALG_HMAC_MD5, RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP2048,RCT_ALG_MODP1536,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+    </carrier_config>
+</carrier_config_list>

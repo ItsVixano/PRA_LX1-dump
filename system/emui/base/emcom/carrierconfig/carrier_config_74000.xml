@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--MOVISTAR_EC-->
+    <carrier_config>
+        <boolean name="is_ussd_ok_for_nw_release" value="true"/>
+        <!--UT NO TA-->
+        <int name="utUseApn" value="1"/>
+        <int name="callWaitingMode" value="7"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="suppport_cnap_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+    </carrier_config>
+</carrier_config_list>

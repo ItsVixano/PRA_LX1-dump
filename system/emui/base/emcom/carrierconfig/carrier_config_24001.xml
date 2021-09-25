@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TELIA SE -->
+    <carrier_config>
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="-1"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1,8:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">24001, epdg.epc.mnc001.mcc240.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2SaLifeTime" value="28800"/>
+        <int name="Ikev2MaxRetryToSend" value="0"/>
+        <int name="Ikev2IntervalToSend" value="0"/>
+        <int name="Ikev2SaNegoTimeLimit" value="0"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2DpdRetry" value="0"/>
+        <int name="Ikev2DpdMaxFails" value="0"/>
+        <int name="Ikev2CertReqEnable" value="0"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="IpTos" value="0"/>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifi_UT_APN">HOS</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <int name="Ikev2TimePerSend" value="0"/>
+        <string name="Ikev2AuthMethod">RCT_ALG_PSK</string>
+        <int name="Ikev2SaLifeByte" value="0"/>
+        <int name="IPsecSaLifeTimeByte" value="0"/>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
+        <boolean name="wfc_is_show_air_plane" value="true"/>
+    </carrier_config>
+</carrier_config_list>

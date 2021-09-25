@@ -1,0 +1,9 @@
+on property:sys.boot_completed=1
+    start restart_logcat_service
+
+service restart_logcat_service  /system/bin/sh /system/etc/logctl_service.sh
+    user root
+    group system
+    oneshot
+    seclabel u:r:logctlservice:s0
+

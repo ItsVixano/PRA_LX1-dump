@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- ORANGE_LU -->
+    <carrier_config>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">27099, epdg.epc.mnc099.mcc270.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1536,RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="Ikev2SaLifeTime" value="7200"/>
+        <int name="IPsecSaLifeTime" value="28800"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="7200"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2MaxRetryToSend" value="5"/>
+        <int name="vowifiRoamingConfig" value="0" />
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+    </carrier_config>
+</carrier_config_list>

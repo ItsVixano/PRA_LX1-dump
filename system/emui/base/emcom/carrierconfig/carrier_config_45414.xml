@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--H3G_HK-->
+    <carrier_config>
+        <!--UT-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- VoWifi  -->
+        <string name="carrier_vowifi_title">VoWiFi</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+        <boolean name="vowifi_mms_switch" value="true" />
+        <int name="vowifiRoamingConfig" value="0" />
+        <string name="vowifiHplmnListItem">45414, wlan.three.com.hk</string>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP768</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <int name="Ikev2PcscfIpv4Address" value="16384" />
+        <int name="Ikev2PcscfIpv6Address" value="16386" />
+        <int name="Ikev2MaxRetryToSend" value="3" />
+        <int name="Ikev2DpdInterval" value="120" />
+        <string name="vowifiRssiThreshold">-75,-85,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-85,-78,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-78,3,1</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <boolean name="wfc_is_show_air_plane" value="true"/>
+    </carrier_config>
+</carrier_config_list>

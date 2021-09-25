@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FAREASTONE TW-->
+    <carrier_config>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- VoWifi  -->
+        <string name="carrier_vowifi_title">VoWiFi</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+        <string name="vowifiHplmnListItem">46601, epdg.epc.mnc001.mcc466.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="3000" />
+        <int name="IPsecSaLifeTime" value="3000" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3000" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="1500" />
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <int name="Ikev2IntervalToSend" value="6"/>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="64"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
+        <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!--use custom User-Agent in Google Message-->
+        <boolean name="useCustomUserAgent" value="true" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+   <!--PERSONAL_PY 74405-->
+   <carrier_config>
+       <!--UT NO TA-->
+       <int name="callWaitingMode" value="11"/>
+       <string name="utXcapRootUri">MyServices</string>
+   </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <!--UMNIAH_JO 41603-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="callWaitingMode" value="11"/>
+        <boolean name="utNafUseHttps" value="true"/>
+        <int name="utBsfPort" value="80"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
+    </carrier_config>
+</carrier_config_list>

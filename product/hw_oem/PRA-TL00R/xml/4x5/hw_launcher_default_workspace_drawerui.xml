@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <folder
+        launcher:title="@string/folder_top_apps"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:op="add">
+        <favorite
+            launcher:packageName="com.facebook.katana"
+            launcher:className="com.facebook.katana.LoginActivity"
+            launcher:shortcut="true"
+            launcher:icontype="0"
+            launcher:translatetitle="1"/>
+        <favorite
+            launcher:packageName="com.booking"
+            launcher:className="com.booking.activity.StartActivity"
+            launcher:shortcut="true"
+            launcher:icontype="0"
+            launcher:translatetitle="1"/>
+    </folder>
+    <favorite
+        launcher:packageName="com.huawei.gameassistant"
+        launcher:className="com.huawei.gameassistant.views.GameassistantMainActivity"
+        launcher:container="-100"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+</favorites>

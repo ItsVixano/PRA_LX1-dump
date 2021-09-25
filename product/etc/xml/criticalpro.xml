@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.huawei.hwasm" path="product/app/HwFidoAsm" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="80000301"/>
+<package name="com.huawei.gameassistant" path="data/hw_init/product/app/HwGameAssistant" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="800000352"/>
+<package name="com.huawei.fido.uafclient" path="product/app/HwFidoClient" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="80000301"/>
+<package name="com.android.frameworkres.overlay" path="product/overlay" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.huawei.android.FMRadio" path="product/app/HwFMRadio" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="80000352"/>
+</packages>

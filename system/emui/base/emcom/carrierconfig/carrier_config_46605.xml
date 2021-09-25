@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="utBsfAuthBeUsed" value="false"/>
+        <string name="utNafSrvAddr">xcap.volte.aptg.com.tw</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utParamsCfg">0:1</string>
+        <int name="utUseApn" value="1"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI NO TA-->
+        <string name="vowifiHplmnListItem">46605,epdg.epc.aptg.com.tw</string>
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="86400"/>
+        <int name="IPsecSaLifeTime" value="86400"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="86400"/>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2PcscfIpv4Address" value="16384"/>
+        <int name="Ikev2PcscfIpv6Address" value="16390"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <!--use custom User-Agent in Google Message-->
+        <boolean name="useCustomUserAgent" value="true" />
+    </carrier_config>
+</carrier_config_list>

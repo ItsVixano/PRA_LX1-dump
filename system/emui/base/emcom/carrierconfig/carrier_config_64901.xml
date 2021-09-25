@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- MTC NA -->
+    <carrier_config>
+        <!--VOWIFI NO TA -->
+        <string name="vowifiHplmnListItem">64901,epdg.epc.mnc001.mcc649.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES192_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+        <int name="Ikev2MaxRetryToSend" value="5"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="vowifiRssiThreshold">-65,-85,-6,-10</string>
+        <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+    </carrier_config>
+</carrier_config_list>

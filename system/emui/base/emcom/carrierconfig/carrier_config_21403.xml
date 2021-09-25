@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- FT ES -->
+    <carrier_config>
+        <!--UT NO TA-->
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000001</string>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10100000</string>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">21403, epdg.epc.mnc003.mcc214.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048,RCT_ALG_MODP1536</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="64800"/>
+        <int name="IPsecSaLifeTime" value="64800"/>
+        <string name="vowifiRssiThreshold">-75,-85,-6,-10</string>
+        <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="20"/>
+        <string name="vowifi_UT_APN">vowifiorange</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <int name="InnerDscpSipValue" value="239"/>
+        <int name="InnerDscpVoiceValue" value="239"/>
+        <int name="netmgrSipInnerDSCP" value="46" />
+        <int name="netmgrAudioInnerDSCP" value="46" />
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <!-- Google Message -->
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <!--using sms as default in group chat-->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+    </carrier_config>
+    <!-- DTS2018032911630 lwx529019 2018/4/27 begin -->
+    <carrier_config spn="JAZZTEL">
+        <boolean name="mvnoTypeDataEnable" value="false"/>
+    </carrier_config>
+    <carrier_config spn="simyo">
+        <boolean name="mvnoTypeDataEnable" value="false"/>
+    </carrier_config>
+    <!-- DTS2018032911630 lwx529019 2018/4/27 end -->
+</carrier_config_list>

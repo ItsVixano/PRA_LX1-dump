@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- VDF DE -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="utUseApn" value="3"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">0:1,1:1,2:1,3:1</string>
+        <int name="utOIRSourceMode" value="1"/>
+        <!--VOLTE TA-->
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_notification_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="vowifiHplmnListItem">26209, epdg.epc.mnc009.mcc262.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_AES_XCBC</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <boolean name="wfc_is_show_no_service" value="true"/>
+        <boolean name="wfc_is_show_emergency_only" value="true"/>
+        <boolean name="wfc_is_show_air_plane" value="true"/>
+        <string name="carrier_vowifi_hd_icon_flag">00100000</string>
+        <string name="carrier_vowifi_tips_title">Vodafone WiFi Calling enabled</string>
+        <string name="carrier_vowifi_tips_flag">0100</string>
+    </carrier_config>
+</carrier_config_list>

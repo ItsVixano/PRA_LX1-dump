@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--MOBILIS_DZ-->
+    <carrier_config>
+        <!--UT NO TA-->
+        <int name="callWaitingMode" value="11"/>
+        <int name="utNafPort" value="80"/>
+        <int name="utBsfPort" value="8080"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,1709 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!--A1_AT_23201-->
+    <carrier_config mcc="232" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--AIS_TH_52003-->
+    <carrier_config mcc="520" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--BYT_FR_20820-->
+    <carrier_config mcc="208" mnc="20">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CELLCOM_MY_50213-->
+    <carrier_config mcc="502" mnc="13">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CELLCOM_MY_50219-->
+    <carrier_config mcc="502" mnc="19">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CLARO_PE_71610-->
+    <carrier_config mcc="716" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MOVISTAR_CO 732123-->
+    <carrier_config mcc="732" mnc="123">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--CMCC_HK_45412-->
+    <carrier_config mcc="454" mnc="12">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CMCC_HK_45413-->
+    <carrier_config mcc="454" mnc="13">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CTM_MO_45501-->
+    <carrier_config mcc="455" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CTM_MO_45504-->
+    <carrier_config mcc="455" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DIGI_MY_50210-->
+    <carrier_config mcc="502" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DIGI_MY_50216-->
+    <carrier_config mcc="502" mnc="16">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DNA_FI_24412-->
+    <carrier_config mcc="244" mnc="12">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DTAC_TH_52005-->
+    <carrier_config mcc="520" mnc="05">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_CZ_23001-->
+    <carrier_config mcc="230" mnc="01" spn="T-Mobile CZ">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="99">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" gid1="4B">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" spn="Telekom\.de">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" spn="T-Mobile D">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" spn="Business">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201-->
+    <carrier_config mcc="262" mnc="01" spn="Privat">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_DE_26201 VN-->
+    <carrier_config mcc="262" mnc="01" gid1="44">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--DT_DE_26201 VN-->
+    <carrier_config mcc="262" mnc="01" spn="congstar">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--DT_DE_26201 VN-->
+    <carrier_config mcc="262" mnc="01" spn="congstar\.de">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--DT_GR_20201-->
+    <carrier_config mcc="202" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="99">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" spn="T-Mobile HR">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" spn="HT HR">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" gid1="12">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HR_21901-->
+    <carrier_config mcc="219" mnc="01" spn="bonbon">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HU_21630-->
+    <carrier_config mcc="216" mnc="30" spn="Telekom HU">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_HU_21630-->
+    <carrier_config mcc="216" mnc="30" spn="T-Mobile H">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_NL_20416-->
+    <carrier_config mcc="204" mnc="16" gid1="FF">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_NL_20416-->
+    <carrier_config mcc="204" mnc="16" spn="T-Mobile NL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_NL_20416 VN-->
+    <carrier_config mcc="204" mnc="16" gid1="5F">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--DT_NL_20416 VN-->
+    <carrier_config mcc="204" mnc="16" spn="Ben NL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--DT_NL_20420-->
+    <carrier_config mcc="204" mnc="20" gid1="FF">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_NL_20420-->
+    <carrier_config mcc="204" mnc="20" spn="T-Mobile NL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="12">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="16">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="17">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="21">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="22">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="24">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="26">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" spn="T-Mobile\.pl">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" spn="T-Mobile\.pl Q">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" gid1="23">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_PL_26002-->
+    <carrier_config mcc="260" mnc="02" spn="heyah">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--DT_SK_23102-->
+    <carrier_config mcc="231" mnc="02" spn="Telekom SK">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--DT_SK_23102-->
+    <carrier_config mcc="231" mnc="02" spn="Juro\.sk">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--EE_GB_23430-->
+    <carrier_config mcc="234" mnc="30">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--EE_GB_23433-->
+    <carrier_config mcc="234" mnc="33">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--ELISA_FI_24405-->
+    <carrier_config mcc="244" mnc="05">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--ENTEL_PE_71617-->
+    <carrier_config mcc="716" mnc="17">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--FASTLINK_IQ_41866-->
+    <carrier_config mcc="418" mnc="66">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--FT_PL_26003-->
+    <carrier_config mcc="260" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--FT_PL_26003 VN-->
+    <carrier_config mcc="260" mnc="03" spn="Nju">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_RO_22610-->
+    <carrier_config mcc="226" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--FT_SK_23101-->
+    <carrier_config mcc="231" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--H3G_GB_23420-->
+    <carrier_config mcc="234" mnc="20">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--H3G_GB_23494-->
+    <carrier_config mcc="234" mnc="94">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--H3G_GB_23594-->
+    <carrier_config mcc="235" mnc="94">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--H3G_HK_45403-->
+    <carrier_config mcc="454" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--H3G_HK_45404-->
+    <carrier_config mcc="454" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--H3G_HK_45414-->
+    <carrier_config mcc="454" mnc="14">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--H3G_SE_24002-->
+    <carrier_config mcc="240" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--KPN_NL_20408-->
+    <carrier_config mcc="204" mnc="08">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--KPN_NL_20469-->
+    <carrier_config mcc="204" mnc="69">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MCI_IR_43211-->
+    <carrier_config mcc="432" mnc="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MOVISTAR_PE_71606-->
+    <carrier_config mcc="716" mnc="06">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MOVISTAR_AR 72207-->
+    <carrier_config mcc="722" mnc="07">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MOVISTAR_CL 73002-->
+    <carrier_config mcc="730" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--NOVA_IS_27411-->
+    <carrier_config mcc="274" mnc="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--O2_CZ_23002-->
+    <carrier_config mcc="230" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--O2_DE_26203-->
+    <carrier_config mcc="262" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--O2_DE_26207_26207-->
+    <carrier_config mcc="262" mnc="07">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--OMANTEL_OM_42202-->
+    <carrier_config mcc="422" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--OMNITEL_LT_24601-->
+    <carrier_config mcc="246" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--OOREDOO_QA_42701-->
+    <carrier_config mcc="427" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PCCW_HK_45400-->
+    <carrier_config mcc="454" mnc="00">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PCCW_HK_45419-->
+    <carrier_config mcc="454" mnc="19">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PCCW_HK_45402-->
+    <carrier_config mcc="454" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PCCW_HK_45416-->
+    <carrier_config mcc="454" mnc="16">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PCCW_HK_45418-->
+    <carrier_config mcc="454" mnc="18">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--ROGERS_CA_302370-->
+    <carrier_config mcc="302" mnc="370">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--ROGERS_CA_302720-->
+    <carrier_config mcc="302" mnc="720" gid1="FF">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="302" mnc="720" gid1="A1">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--SFR_FR_20810-->
+    <carrier_config mcc="208" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--SOFTBANK_JP_44020-->
+    <carrier_config mcc="440" mnc="20">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--KDDI_JP 44051-->
+    <carrier_config mcc="440" mnc="51">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--ST_HK_45406-->
+    <carrier_config mcc="454" mnc="06">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--ST_HK_45415-->
+    <carrier_config mcc="454" mnc="15">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--ST_HK_45417-->
+    <carrier_config mcc="454" mnc="17">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--Sunrise_CH_22802-->
+    <carrier_config mcc="228" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--SWISSCOM_CH_22801-->
+    <carrier_config mcc="228" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TDC_DK_23801-->
+    <carrier_config mcc="238" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TELCEL_MX_334020-->
+    <carrier_config mcc="334" mnc="020">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELE2_NL_20402-->
+    <carrier_config mcc="204" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELEKOM_SI_29341-->
+    <carrier_config mcc="293" mnc="41">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELENOR_BG_28405-->
+    <carrier_config mcc="284" mnc="05">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELENOR_DK_23802-->
+    <carrier_config mcc="238" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TELENOR_NO_24201-->
+    <carrier_config mcc="242" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TELENOR_SE_24008-->
+    <carrier_config mcc="240" mnc="08">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELIA_EE_24801-->
+    <carrier_config mcc="248" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TELIA_NO_24202-->
+    <carrier_config mcc="242" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--METEOR_IE 27203-->
+    <carrier_config mcc="272" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TELIA_SE_24001-->
+    <carrier_config mcc="240" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--PARTNER_IL 42501-->
+    <carrier_config mcc="425" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--PARTNER_IL 42510-->
+    <carrier_config mcc="425" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--TIGO_GT_70402-->
+    <carrier_config mcc="704" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TIGO_GT_704020-->
+    <carrier_config mcc="704" mnc="020">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TIM_IT_22201-->
+    <carrier_config mcc="222" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TIM_IT_22201 VN-->
+    <carrier_config mcc="222" mnc="01" spn="Coop Mobile">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TIM_IT_22201 VN-->
+    <carrier_config mcc="222" mnc="01" spn="COOP">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TIM_IT_22201 VN-->
+    <carrier_config mcc="222" mnc="01" spn="COOP !OBILE">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TIM_IT_22201 VN-->
+    <carrier_config mcc="222" mnc="01" spn="COOP MOBLIE">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TRUE_TH_52000-->
+    <carrier_config mcc="520" mnc="00">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TRUE_TH_52004-->
+    <carrier_config mcc="520" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--UMOBILE_MY_50218-->
+    <carrier_config mcc="502" mnc="18">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CELLC_ZA 65507-->
+    <carrier_config mcc="655" mnc="07">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_CZ_23003-->
+    <carrier_config mcc="230" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_DE_26202-->
+    <carrier_config mcc="262" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <!--VDF_DE_26202-->
+    <carrier_config mcc="262" mnc="02" gid1="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+    </carrier_config>
+    <!--VDF_DE_26209-->
+    <carrier_config mcc="262" mnc="09">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_GB_23415-->
+    <carrier_config mcc="234" mnc="15">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_IT_22210-->
+    <carrier_config mcc="222" mnc="10">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VDF_NL_20404-->
+    <carrier_config mcc="204" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_PT_26801-->
+    <carrier_config mcc="268" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VDF_TR_28602-->
+    <carrier_config mcc="286" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI NO TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+    <!--VDF_ES_21401-->
+    <carrier_config mcc="214" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--FT_ES_21403-->
+    <carrier_config mcc="214" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="JAZZTEL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="EUSKALTEL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="RACC">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="Carrefour">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="MASMOVIL">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="Ibercom">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="Happy">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="CABLE movil">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="simyo">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="MovilDIA">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="LlamaYA">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="LCR">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="You Mobile">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" spn="IOS">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" imsi="21403506\d{7}">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" imsi="21403508\d{7}">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--FT_ES_21403_VN-->
+    <carrier_config mcc="214" mnc="03" imsi="21403509\d{7}">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+    </carrier_config>
+    <!--VDF_ZM_64505-->
+    <carrier_config mcc="645" mnc="05">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VIVA_BH_42604-->
+    <carrier_config mcc="426" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VIVA_KW_41904-->
+    <carrier_config mcc="419" mnc="04">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--WEBE_MY_502153-->
+    <carrier_config mcc="502" mnc="153">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--YES_MY_502152-->
+    <carrier_config mcc="502" mnc="152">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--CT_TW_46692-->
+    <carrier_config mcc="466" mnc="92">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--PRO_BE_20601-->
+    <carrier_config mcc="206" mnc="01">
+        <!--UT NO TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE NO TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--PRO_BE_20601 VN-->
+    <carrier_config mcc="206" mnc="01" gid1="4E524A31">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--DIALOG_LK_41302-->
+    <carrier_config mcc="413" mnc="02">
+        <!--VOLTE TA -->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true" />
+    </carrier_config>
+    <!--MTN_GH_62001-->
+    <carrier_config mcc="620" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+   <!--MTN_IR_43235-->
+   <carrier_config mcc="432" mnc="35">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405840 -->
+    <carrier_config mcc="405" mnc="840">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+   <!--VDF_ZA 65501-->
+   <carrier_config mcc="655" mnc="01">
+        <!--UT NO TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+   <!--TELKOM_ZA_65502-->
+   <carrier_config mcc="655" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+   <!--NTEL_NG_62140-->
+   <carrier_config mcc="621" mnc="40">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--OPTUS_AU 50502-->
+    <carrier_config mcc="505" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VHA_AU 50503-->
+    <carrier_config mcc="505" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--SINGTEL_SG 52501-->
+    <carrier_config mcc="525" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--M1_SG 52503-->
+    <carrier_config mcc="525" mnc="03">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--STARHUB_SG 52505-->
+    <carrier_config mcc="525" mnc="05">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--SEATEL_KH 45611-->
+    <carrier_config mcc="456" mnc="11">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--SMART_KH 45606-->
+    <carrier_config mcc="456" mnc="06">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--TMO_USA 310160-->
+    <carrier_config mcc="310" mnc="160">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310200-->
+    <carrier_config mcc="310" mnc="200">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310210-->
+    <carrier_config mcc="310" mnc="210">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310220-->
+    <carrier_config mcc="310" mnc="220">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310230-->
+    <carrier_config mcc="310" mnc="230">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310240-->
+    <carrier_config mcc="310" mnc="240">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310250-->
+    <carrier_config mcc="310" mnc="250">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310260-->
+    <carrier_config mcc="310" mnc="260">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310270-->
+    <carrier_config mcc="310" mnc="270">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310300-->
+    <carrier_config mcc="310" mnc="300">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310310-->
+    <carrier_config mcc="310" mnc="310">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310490-->
+    <carrier_config mcc="310" mnc="490">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310530-->
+    <carrier_config mcc="310" mnc="530">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310580-->
+    <carrier_config mcc="310" mnc="580">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310590-->
+    <carrier_config mcc="310" mnc="590">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310640-->
+    <carrier_config mcc="310" mnc="640">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310660-->
+    <carrier_config mcc="310" mnc="660">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--TMO_USA 310800-->
+    <carrier_config mcc="310" mnc="800">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="false" />
+    </carrier_config>
+    <!--RIL_IN 405854 -->
+    <carrier_config mcc="405" mnc="854">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405855 -->
+    <carrier_config mcc="405" mnc="855">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405856 -->
+    <carrier_config mcc="405" mnc="856">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405857 -->
+    <carrier_config mcc="405" mnc="857">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405858 -->
+    <carrier_config mcc="405" mnc="858">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405859 -->
+    <carrier_config mcc="405" mnc="859">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405860 -->
+    <carrier_config mcc="405" mnc="860">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405861 -->
+    <carrier_config mcc="405" mnc="861">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405862 -->
+    <carrier_config mcc="405" mnc="862">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405863 -->
+    <carrier_config mcc="405" mnc="863">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405864 -->
+    <carrier_config mcc="405" mnc="864">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405865 -->
+    <carrier_config mcc="405" mnc="865">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405866 -->
+    <carrier_config mcc="405" mnc="866">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405867 -->
+    <carrier_config mcc="405" mnc="867">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405868 -->
+    <carrier_config mcc="405" mnc="868">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405869 -->
+    <carrier_config mcc="405" mnc="869">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405870 -->
+    <carrier_config mcc="405" mnc="870">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405871 -->
+    <carrier_config mcc="405" mnc="871">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405872 -->
+    <carrier_config mcc="405" mnc="872">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405873 -->
+    <carrier_config mcc="405" mnc="873">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--RIL_IN 405874 -->
+    <carrier_config mcc="405" mnc="874">
+        <!--UT TA -->
+        <boolean name="preferToUseUT" value="true"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--MAGTICOM_GE 28202-->
+    <carrier_config mcc="282" mnc="02">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOLTE TA-->
+        <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <!--VELCOM_BY 25701-->
+    <carrier_config mcc="257" mnc="01">
+        <!--UT TA-->
+        <boolean name="preferToUseUT" value="false"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

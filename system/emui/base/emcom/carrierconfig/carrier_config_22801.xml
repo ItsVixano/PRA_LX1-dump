@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SWISSCOM CH -->
+    <carrier_config>
+        <!--Google Message config begin -->
+        <int name="smsToMmsTextThreshold" value="11" />
+        <!--Google Message config end -->
+        <!--UT TA-->
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <string name="cardTypePreferToUseUT">20,30,40,50,41,42,-1</string>
+        <string name="ssTypeUseCsOnly">13,14,16,17,18</string>
+        <boolean name="utCSBeUsed" value="true"/>
+        <string name="ssTypeForbidFallbackCS">12</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="ContentTypeMode" value="0"/>
+        <boolean name="ImsStateFollowVoiceDomain" value="true"/>
+        <int name="callWaitingMode" value="11"/>
+        <string name="utNafSrvAddr">xcap.ims.mnc001.mcc228.pub.3gppnetwork.org</string>
+        <int name="utNafPort" value="8080"/>
+        <int name="utBsfPort" value="8081"/>
+        <boolean name="utUseXcapNamespace" value="true"/>
+        <string name="utRetryInterval">5000,5000</string>
+        <string name="utParamsCfg">1:1</string>
+        <string name="dcFailCauseForNonVolteSim">27,33</string>
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="suppport_cnap_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- Vowifi UI -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifiHplmnListItem">22801, epdg.epc.mnc001.mcc228.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2HashAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP2048,RCT_ALG_MODP768,RCT_ALG_MODP1536</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5</string>
+        <int name="Ikev2SaLifeTime" value="82800"/>
+        <int name="IPsecSaLifeTime" value="14400"/>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="82800"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="14400"/>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2NatKeepAliveTime" value="20"/>
+        <int name="InnerDscpSipValue" value="239"/>
+        <int name="InnerDscpVoiceValue" value="239"/>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">WiFi calling</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200" />
+        <int name="Ikev2NatRtcTimerSec" value="90" />
+        <int name="netmgrSipInnerDSCP" value="46" />
+        <int name="netmgrAudioInnerDSCP" value="46" />
+        <int name="netmgrSipOuterDSCP" value="34" />
+        <int name="netmgrAudioOuterDSCP" value="46" />
+        <int name="Ikev2EapOnlyAuthentication" value="1" />
+        <int name="Ikev2SupportDnsNum" value="1" />
+        <int name="IpTos" value="136"/>
+        <int name="Ikev2MaxRetryToSend" value="4"/>
+        <int name="Ikev2Reserved0" value="1" />
+    </carrier_config>
+</carrier_config_list>

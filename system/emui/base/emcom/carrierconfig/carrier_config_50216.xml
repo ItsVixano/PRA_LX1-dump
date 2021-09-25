@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- DIGI MY -->
+    <carrier_config>
+        <!--UT TA-->
+        <int name="callWaitingMode" value="7"/>
+        <int name="utBsfPort" value="80"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <!--VOLTE TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- VoWiFi NO TA -->
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifi_mms_switch" value="true" />
+        <boolean name="vowifi_ut_switch" value="true" />
+        <string name="vowifi_UT_APN">hos</string>
+        <int name="vowifiRoamingConfig" value="0" />
+        <string name="vowifiHplmnListItem">50216,epdg.epc.mnc016.mcc502.pub.3gppnetwork.org</string>
+        <boolean name="vowifiStaticUnroaming" value="true" />
+        <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2SaLifeTime" value="86400" />
+        <int name="IPsecSaLifeTime" value="86400" />
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400" />
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="86400" />
+        <int name="Ikev2DpdInterval" value="60" />
+        <int name="Ikev2DpdMaxFails" value="3" />
+        <int name="Ikev2PcscfIpv4Address" value="20" />
+        <int name="Ikev2PcscfIpv6Address" value="21" />
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+    </carrier_config>
+</carrier_config_list>

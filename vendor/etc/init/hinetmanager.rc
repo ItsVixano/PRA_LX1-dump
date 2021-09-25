@@ -1,0 +1,6 @@
+service hinetmanager /system/vendor/bin/hinetmanager
+    class late_start
+    user root
+    group root
+    seclabel u:r:hinetmanager:s0
+    onrestart setprop sys.hinetmanager_has_restarted 1
